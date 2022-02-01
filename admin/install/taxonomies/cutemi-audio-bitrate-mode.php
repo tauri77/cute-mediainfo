@@ -1,0 +1,58 @@
+<?php
+
+$cutemi_taxonomies['cutemi_audio_bitrate_mode'] = array(
+	0 => array(
+		'term_id'          => 159280,
+		'name'             => 'ABR',
+		'slug'             => 'cutemi-audio-bitrate-mode-abr',
+		'term_group'       => 0,
+		'term_taxonomy_id' => 159167,
+		'taxonomy'         => 'cutemi_audio_bitrate_mode',
+		'description'      => 'Average Bitrate',
+		'parent'           => 0,
+		'count'            => 0,
+		'filter'           => 'raw',
+		'metas'            => array(
+			'tags'            => '',
+			'priority_sum'    => '10',
+			'image_url'       => '',
+			'cutemi_disabled' => '0',
+		),
+	),
+	1 => array(
+		'term_id'          => 159279,
+		'name'             => 'CBR',
+		'slug'             => 'cutemi-audio-bitrate-mode-cbr',
+		'term_group'       => 0,
+		'term_taxonomy_id' => 159166,
+		'taxonomy'         => 'cutemi_audio_bitrate_mode',
+		'description'      => 'Constant Bitrate',
+		'parent'           => 0,
+		'count'            => 1,
+		'filter'           => 'raw',
+		'metas'            => array(
+			'tags'            => '',
+			'priority_sum'    => '30',
+			'image_url'       => '',
+			'cutemi_disabled' => '0',
+		),
+	),
+	2 => array(
+		'term_id'          => 159281,
+		'name'             => 'VBR',
+		'slug'             => 'cutemi-audio-bitrate-mode-vbr',
+		'term_group'       => 0,
+		'term_taxonomy_id' => 159168,
+		'taxonomy'         => 'cutemi_audio_bitrate_mode',
+		'description'      => 'Variable Bitrate',
+		'parent'           => 0,
+		'count'            => 1,
+		'filter'           => 'raw',
+		'metas'            => array(
+			'tags'            => '',
+			'priority_sum'    => '20',
+			'image_url'       => '',
+			'cutemi_disabled' => '0',
+		),
+	),
+);

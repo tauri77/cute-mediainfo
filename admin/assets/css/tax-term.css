@@ -1,0 +1,19 @@
+#edittag .term-slug-wrap {
+	display: none;
+	max-height: 0;
+	overflow: hidden;
+}
+
+.tags .inline-editor [name=slug] {
+	display: none !important;
+}
+
+.column-image_url {
+	text-align: center;
+	width: 64px;
+	overflow: hidden
+}
+
+.column-image_url img {
+	max-width: 100%;
+}

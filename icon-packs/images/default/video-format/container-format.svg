@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg version="1.1" viewBox="0 0 128 128" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+    <path d="M26 5 5 38h118L102 5z" fill="#c7a651"/>
+    <path d="M5 123h118V38H5z" fill="#dcb163"/>
+    <path d="M50 37v26l6-6 8 8 8-8 6 6V37L72 5H55z" fill="#e7d75b"/>
+    <g fill="#804200" font-family="'Arial Black'" font-size="30px" text-anchor="middle"><text x="64.929222" y="64.823959">VIDEO</text>
+        <text x="66.323051" y="92.279495">AUDIO</text>
+        <text x="64" y="120.44283">TEXT</text></g></svg>

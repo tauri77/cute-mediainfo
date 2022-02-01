@@ -1,0 +1,27 @@
+<?php
+
+$fcc['texts']['main'] = array(
+	'spu'  => 'DVD Subtitles',
+	'dvbs' => 'DVB Subtitles',
+	'subt' => 'Text subtitles with various tags',
+	'XSUB' => 'DivX XSUB subtitles',
+	'ssa'  => 'SubStation Alpha subtitles',
+	'TEXT' => 'Plain text subtitles',
+	'telx' => 'Teletext',
+	'kate' => 'Kate subtitles',
+	'cmml' => 'CMML annotations/metadata',
+	't140' => 'ITU T.140 subtitles',
+	'usf'  => 'USF subtitles',
+	'ogt'  => 'OGT subtitles',
+	'cvd'  => 'CVD subtitles',
+	'arba' => 'ARIB subtitles (A-profile)',
+	'arbc' => 'ARIB subtitles (C-profile)',
+	'bdpg' => 'BD PGS subtitles',
+	'bdtx' => 'BD Text subtitles',
+	'STL'  => 'EBU STL subtitles',
+	'SC27' => 'SCTE-27 subtitles',
+	'c608' => 'EIA-608 subtitles',
+	'stpp' => 'TTML subtitles',
+	'stpP' => 'TTML subtitles (EN.303.560)',
+	'wvtt' => 'WEBVTT subtitles',
+);

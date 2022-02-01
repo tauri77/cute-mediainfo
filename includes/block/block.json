@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json.schemastore.org/block.json",
+  "apiVersion": 2,
+  "name": "cute-mediainfo/cutemi-block",
+  "version": "0.1.0",
+  "title": "Cute MediaInfo",
+  "category": "widgets",
+  "icon": "cutemi-block",
+  "description": "Show mediainfo for humans",
+  "supports": {
+	"html": false
+  },
+  "textdomain": "cute-mediainfo",
+  "editorScript": "file:./build/index.js",
+  "editorStyle": "file:./build/index.css",
+  "attributes": {
+	"id": {
+	  "type": "string",
+	  "default": ""
+	},
+	"profile": {
+	  "type": "string",
+	  "default": "full"
+	}
+  },
+  "example": {
+    "attributes": {
+      "id": "0",
+      "profile": "full"
+    }
+  }
+}

@@ -1,0 +1,104 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-cute-mediainfo-cutemi-block {
+	border: 1px dotted #f00;
+}
+
+
+.cutemi-block-edit input,
+.cutemi-block-edit select  {
+  min-height: 2.5em !important; /*Fix WP select */
+}
+
+.cutemi-vertical-radio-label {
+  width: 100%;
+  display: block;
+  padding: 1em;
+  border-bottom: solid 1px #ccc;
+  max-width: 80vw;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.cutemi-vertical-radio-label input{
+  visibility: hidden;
+  width: 1em;
+}
+
+.cutemi-modal-search {
+  top: 1em;
+  transform: translate(-50%, 0);
+}
+
+@keyframes cutemi-search-loading-spinner {
+  to {transform: rotate(360deg);}
+}
+
+.cutemi-search-loading {
+  position: relative;
+}
+
+.cutemi-search-loading:before {
+  content: '';
+  position: absolute;
+  top: 0.2em;
+  right: 0.5em;
+  width: 0.9em;
+  height: 0.9em;
+  border-radius: 50%;
+  border-top: 2px solid #3360d0;
+  border-bottom: 2px solid #3360d0;
+  border-right: 2px solid transparent;
+  animation: cutemi-search-loading-spinner .6s linear infinite;
+}
+
+.cutemi-search-error:before {
+  content: '!';
+  color: #ff2323;
+  line-height: 1.2em;
+  font-size: 0.9em;
+  font-weight: bold;
+  position: absolute;
+  top: 0.3em;
+  right: 0.5em;
+  width: 1.6em;
+  height: 1.6em;
+  box-sizing: border-box;
+  text-align: center;
+  border-radius: 50%;
+  border: 0.2em solid #ff2323;
+}
+
+
+.dashicons-cutemi-block {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M2.6 3c-1 0-1.8.9-1.8 2v12c0 1 .8 1.8 1.8 1.8h9.6v-1.6H2.5V4.7h18.4v7.7h1.6V4.9c0-1.1-.8-1.8-1.8-1.8zm6 3.9v8l6-4zm9.7 5.5c-3 0-5.4 2.2-5.4 5 0 2.7 2.4 5 5.4 5s5.3-2.3 5.3-5c0-2.8-2.4-5-5.3-5zm0 1c2.3 0 4.3 1.8 4.3 4s-2 4-4.3 4c-2.4 0-4.3-1.8-4.3-4s2-4 4.3-4zm-.6 1.5v1h1.1v-1zm0 2v3h1.1v-3z'/%3E%3C/svg%3E");
+}
+
+.cutemi-block-edit > div{
+  width: 35%;
+  display: inline-block;
+  margin: 1%;
+  vertical-align: bottom;
+  margin-bottom: 8px;
+}
+.cutemi-block-edit > button{
+  width: 22%;
+  display: inline-block;
+  margin: 1%;
+  vertical-align: bottom;
+  margin-bottom: 8px;
+}
+.cutemi-block-edit > div > div{
+  margin-bottom: 0;
+}
+.cutemi-block-edit.components-placeholder {
+  display: block;
+  min-height: auto;
+}
+.cutemi-block-edit .components-button{
+  overflow: hidden;
+  min-width: 121px;
+}

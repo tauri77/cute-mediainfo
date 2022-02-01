@@ -1,0 +1,58 @@
+<?php
+
+$cutemi_taxonomies['cutemi_video_bitrate_mode'] = array(
+	0 => array(
+		'term_id'          => 159282,
+		'name'             => 'ABR',
+		'slug'             => 'cutemi-video-bitrate-mode-abr',
+		'term_group'       => 0,
+		'term_taxonomy_id' => 159169,
+		'taxonomy'         => 'cutemi_video_bitrate_mode',
+		'description'      => 'Average Bitrate',
+		'parent'           => 0,
+		'count'            => 0,
+		'filter'           => 'raw',
+		'metas'            => array(
+			'tags'            => '',
+			'priority_sum'    => '1',
+			'image_url'       => '',
+			'cutemi_disabled' => '0',
+		),
+	),
+	1 => array(
+		'term_id'          => 159283,
+		'name'             => 'CBR',
+		'slug'             => 'cutemi-video-bitrate-mode-cbr',
+		'term_group'       => 0,
+		'term_taxonomy_id' => 159170,
+		'taxonomy'         => 'cutemi_video_bitrate_mode',
+		'description'      => 'Constant Bitrate',
+		'parent'           => 0,
+		'count'            => 0,
+		'filter'           => 'raw',
+		'metas'            => array(
+			'tags'            => '',
+			'priority_sum'    => '1',
+			'image_url'       => '',
+			'cutemi_disabled' => '0',
+		),
+	),
+	2 => array(
+		'term_id'          => 159284,
+		'name'             => 'VBR',
+		'slug'             => 'cutemi-video-bitrate-mode-vbr',
+		'term_group'       => 0,
+		'term_taxonomy_id' => 159171,
+		'taxonomy'         => 'cutemi_video_bitrate_mode',
+		'description'      => 'Variable Bitrate',
+		'parent'           => 0,
+		'count'            => 0,
+		'filter'           => 'raw',
+		'metas'            => array(
+			'tags'            => '',
+			'priority_sum'    => '1',
+			'image_url'       => '',
+			'cutemi_disabled' => '0',
+		),
+	),
+);

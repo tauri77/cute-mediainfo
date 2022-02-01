@@ -1,0 +1,2589 @@
+# Copyright (C) 2021 Mauricio Galetto
+# This file is distributed under the same license as the Video File Info and Links plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Video File Info and Links 1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/cute-mediainfo\n"
+"POT-Creation-Date: 2021-12-09T15:34:17-03:00\n"
+"PO-Revision-Date: 2022-02-01 12:15+0000\n"
+"Last-Translator: \n"
+"Language-Team: Spanish (Spain)\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Domain: cute-mediainfo\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Loco-Version: 2.5.5; wp-5.6.2"
+
+#. translators: %1$s is the field and %2$s is the object. Ex Size and Mediainfo
+#: includes/class-cutemi-custom-post-type.php:614
+msgid "%1$s is mandatory for creating a new %2$s"
+msgstr "%1$s es obligatorio para crear un nuevo %2$s"
+
+#. translators: digit = hours
+#: includes/utils.php:76
+msgid "%dh"
+msgstr "%dh"
+
+#. translators: digit = minutes
+#: includes/utils.php:78
+msgid "%dmin"
+msgstr "%dmin"
+
+#. translators: digit = seconds
+#: includes/utils.php:80
+msgid "%ds"
+msgstr "%ds"
+
+#: includes/cute-mediainfo/class-cutemi-post-type-mediainfo.php:561
+msgid "Add into MediaInfo"
+msgstr "Añadir a MediaInfo"
+
+#: includes/cute-mediainfo/taxonomies.php:242
+msgid "Add New Audio Bitrate"
+msgstr "Agregar nueva Tasa de Bits de Audio"
+
+#: includes/cute-mediainfo/taxonomies.php:279
+msgid "Add New Audio Bitrate Mode"
+msgstr "Agregar nuevo Modo de Tasa de Bits de Audio"
+
+#: includes/cute-mediainfo/taxonomies.php:205
+msgid "Add New Audio Channel"
+msgstr "Agregar nuevo Canal de Audio"
+
+#: includes/cute-mediainfo/taxonomies.php:316
+msgid "Add New Audio Language"
+msgstr "Agregar nuevo Idioma de Audio"
+
+#: includes/cute-mediainfo/taxonomies.php:168
+msgid "Add New Audio Tech"
+msgstr "Agregar nueva Tecnología de Audio"
+
+#: includes/cute-mediainfo/taxonomies.php:20
+msgid "Add New Link Source"
+msgstr "Agregar nueva Fuente de Enlace"
+
+#: includes/cute-mediainfo/class-cutemi-post-type-mediainfo.php:547
+#: includes/cute-mediainfo/class-cutemi-post-type-mediainfo.php:548
+msgid "Add New MediaInfo"
+msgstr "Agregar Nuevo MediaInfo"
+
+#: includes/cute-mediainfo/taxonomies.php:463
+msgid "Add New Text Format"
+msgstr "Agregar nuevo Formato de Texto"
+
+#: includes/cute-mediainfo/taxonomies.php:427
+msgid "Add New Text Language"
+msgstr "Agregar nuevo Idioma de Texto"
+
+#: includes/cute-mediainfo/taxonomies.php:499
+msgid "Add New Text Type"
+msgstr "Agregar nuevo Tipo de Texto"
+
+#: includes/cute-mediainfo/taxonomies.php:94
+msgid "Add New Video Bitrate"
+msgstr "Agregar nueva Tasa de Bits de Video"
+
+#: includes/cute-mediainfo/taxonomies.php:131
+msgid "Add New Video Bitrate Mode"
+msgstr "Agregar nuevo Modo de Tasa de Bits de Video"
+
+#: includes/cute-mediainfo/taxonomies.php:353
+msgid "Add New Video Format"
+msgstr "Agregar nuevo Formato de Video"
+
+#: includes/cute-mediainfo/taxonomies.php:57
+msgid "Add New Video Resolution"
+msgstr "Agregar nueva Resolución de Video"
+
+#: includes/cute-mediainfo/taxonomies.php:390
+msgid "Add New Video Tech"
+msgstr "Agregar nueva Tecnología de Video"
+
+#: includes/cute-mediainfo/taxonomies.php:284
+msgid "Add or remove Audio Bitrate Modes"
+msgstr "Agregar o eliminar Modos de Tasa de Bits de Audio"
+
+#: includes/cute-mediainfo/taxonomies.php:247
+msgid "Add or remove Audio Bitrates"
+msgstr "Agregar o quitar Tasas de Bits de Audio"
+
+#: includes/cute-mediainfo/taxonomies.php:210
+msgid "Add or remove Audio Channels"
+msgstr "Agregar o eliminar Canales de Audio"
+
+#: includes/cute-mediainfo/taxonomies.php:321
+msgid "Add or remove Audio Languages"
+msgstr "Agregar o quitar Idiomas de Audio"
+
+#: includes/cute-mediainfo/taxonomies.php:173
+msgid "Add or remove Audio Techs"
+msgstr "Agregar o quitar Tecnología de Audio"
+
+#: includes/cute-mediainfo/taxonomies.php:25
+msgid "Add or remove Link Sources"
+msgstr "Agregar o eliminar Fuentes de Enlaces"
+
+#: includes/cute-mediainfo/taxonomies.php:468
+msgid "Add or remove Text Formats"
+msgstr "Agregar o eliminar formatos de Texto"
+
+#: includes/cute-mediainfo/taxonomies.php:432
+msgid "Add or remove Text Languages"
+msgstr "Agregar o quitar idiomas de Texto"
+
+#: includes/cute-mediainfo/taxonomies.php:504
+msgid "Add or remove Text Types"
+msgstr "Agregar o quitar tipos de Texto"
+
+#: includes/cute-mediainfo/taxonomies.php:136
+msgid "Add or remove Video Bitrate Modes"
+msgstr "Agregar o eliminar Modos de Tasa de Bits de Video"
+
+#: includes/cute-mediainfo/taxonomies.php:99
+msgid "Add or remove Video Bitrates"
+msgstr "Agregar o eliminar Tasas de Bits de Video"
+
+#: includes/cute-mediainfo/taxonomies.php:358
+msgid "Add or remove Video Formats"
+msgstr "Agregar o eliminar Formatos de Video"
+
+#: includes/cute-mediainfo/taxonomies.php:62
+msgid "Add or remove Video Resolutions"
+msgstr "Agregar o quitar Resoluciones de Video"
+
+#: includes/cute-mediainfo/taxonomies.php:395
+msgid "Add or remove Video Techs"
+msgstr "Agregar o quitar Tecnologías de Video"
+
+#: admin/class-cute-mediainfo-settings.php:117
+msgid "Advanced Settings"
+msgstr "Ajustes Avanzados"
+
+#: includes/cute-mediainfo/taxonomies.php:312
+msgid "All Audio Languages"
+msgstr "Todos los Idiomas de Audio"
+
+#: includes/cute-mediainfo/taxonomies.php:164
+msgid "All Audio Techs"
+msgstr "Todas las Tecnologías de Audio"
+
+#: includes/cute-mediainfo/taxonomies.php:90
+#: includes/cute-mediainfo/taxonomies.php:127
+#: includes/cute-mediainfo/taxonomies.php:201
+#: includes/cute-mediainfo/taxonomies.php:238
+#: includes/cute-mediainfo/taxonomies.php:275
+msgid "All Items"
+msgstr "Todos los Elementos"
+
+#: includes/cute-mediainfo/class-cutemi-post-type-mediainfo.php:546
+msgid "All MediaInfo Items"
+msgstr "Todos los MediaInfo"
+
+#: admin/customizer/class-cutemi-customize-settings.php:589
+msgid ""
+"All size fields will be expressed in this unit (border-radius, border, font-"
+"size, width, etc..)"
+msgstr ""
+"Todos los campos de Tamaño se expresarán en esta unidad (radio de borde, "
+"borde, Tamaño de fuente, ancho, etc.)"
+
+#: includes/cute-mediainfo/taxonomies.php:16
+msgid "All Sources"
+msgstr "Todas las Fuentes"
+
+#: includes/cute-mediainfo/taxonomies.php:459
+msgid "All Text Formats"
+msgstr "Todos los Formatos de Texto"
+
+#: includes/cute-mediainfo/taxonomies.php:423
+msgid "All Text Languages"
+msgstr "Todos los Idiomas de Texto"
+
+#: includes/cute-mediainfo/taxonomies.php:495
+msgid "All Text Types"
+msgstr "Todos los Tipos de Texto"
+
+#: includes/cute-mediainfo/taxonomies.php:349
+msgid "All Video Formats"
+msgstr "Todos los Formatos de Video"
+
+#: includes/cute-mediainfo/taxonomies.php:53
+msgid "All Video Resolutions"
+msgstr "Todas las Resoluciones de Video"
+
+#: includes/cute-mediainfo/taxonomies.php:386
+msgid "All Video Techs"
+msgstr "Todas las Tecnologías de Video"
+
+#: admin/class-cutemi-settings-credentials.php:228
+msgid "Alternative:"
+msgstr "Alternativamente:"
+
+#: admin/class-cutemi-settings-wizards.php:130
+msgid "Audio"
+msgstr "Audio"
+
+#: includes/cute-mediainfo/class-cutemi-post-type-mediainfo.php:280
+#: includes/cute-mediainfo/class-cutemi-post-type-mediainfo.php:282
+msgid "Audio Bitrate"
+msgstr "Tasa de Bits de Audio"
+
+#: includes/cute-mediainfo/class-cutemi-post-type-mediainfo.php:292
+#: includes/cute-mediainfo/class-cutemi-post-type-mediainfo.php:294
+msgid "Audio Bitrate Mode"
+msgstr "Modo de Tasa de Bits de Audio"
+
+#: includes/cute-mediainfo/taxonomies.php:274
+msgid "Audio Bitrate Modes"
+msgstr "Modos de Tasa de Bits de Audio"
+
+#: includes/cute-mediainfo/taxonomies.php:237
+msgid "Audio Bitrates"
+msgstr "Tasas de Bits de Audio"
+
+#: includes/cute-mediainfo/class-cutemi-post-type-mediainfo.php:268
+msgid "Audio Channel"
+msgstr "Canal de Audio"
+
+#: includes/cute-mediainfo/class-cutemi-post-type-mediainfo.php:270
+#: includes/cute-mediainfo/taxonomies.php:200
+msgid "Audio Channels"
+msgstr "Canales de Audio"
+
+#: includes/cute-mediainfo/class-cutemi-post-type-mediainfo.php:244
+msgid "Audio Language"
+msgstr "Idioma de Audio"
+
+#: includes/cute-mediainfo/class-cutemi-post-type-mediainfo.php:246
+#: includes/cute-mediainfo/taxonomies.php:311
+msgid "Audio Languages"
+msgstr "Idiomas de Audio"
+
+#: includes/cute-mediainfo/class-cutemi-post-type-mediainfo.php:256
+#: includes/cute-mediainfo/class-cutemi-post-type-mediainfo.php:258
+msgid "Audio Tech"
+msgstr "Tecnología de Audio"
+
+#: includes/cute-mediainfo/taxonomies.php:163
+msgid "Audio Techs"
+msgstr "Tecnologías de Audio"
+
+#: includes/cute-mediainfo/class-cutemi-post-type-mediainfo.php:240
+msgid "Audio Tracks"
+msgstr "Pistas de Audio"
+
+#: admin/customizer/class-cutemi-customize-settings.php:212
+msgid "Audios Block"
+msgstr "Bloque de Audios"
+
+#: admin/customizer/class-cutemi-customize-settings.php:213
+msgid "Audios Header"
+msgstr "Encabezado de Audios"
+
+#: admin/customizer/class-cutemi-customize-settings.php:214
+msgid "Audios Header Layout"
+msgstr "Disposición de encabezado de Audios"
+
+#: admin/customizer/class-cutemi-customize-settings.php:253
+msgid "Audios: Bitrate Layout"
+msgstr "Audios: Disposición de Tasa de Bits"
+
+#: admin/customizer/class-cutemi-customize-settings.php:255
+msgid "Audios: Bitrate Mode Layout"
+msgstr "Audios: Disposición de Modo de Tasa de Bits"
+
+#: admin/customizer/class-cutemi-customize-settings.php:256
+msgid "Audios: Bitrate Mode Order"
+msgstr "Audios: Orden de Modo de Tasa de Bits"
+
+#: admin/customizer/class-cutemi-customize-settings.php:254
+msgid "Audios: Bitrate Order"
+msgstr "Audios: Orden de Tasa de Bits"
+
+#: admin/customizer/class-cutemi-customize-settings.php:251
+msgid "Audios: Channels Layout"
+msgstr "Audios: Disposición de Canales"
+
+#: admin/customizer/class-cutemi-customize-settings.php:252
+msgid "Audios: Channels Order"
+msgstr "Audios: Orden de Canales"
+
+#: admin/customizer/class-cutemi-customize-settings.php:247
+msgid "Audios: Lang Layout"
+msgstr "Audios: Disposición de Idioma"
+
+#: admin/customizer/class-cutemi-customize-settings.php:248
+msgid "Audios: Lang Order"
+msgstr "Audios: Orden de Idioma"
+
+#: admin/customizer/class-cutemi-customize-settings.php:249
+msgid "Audios: Tech Layout"
+msgstr "Audios: Disposición de Tecnología"
+
+#: admin/customizer/class-cutemi-customize-settings.php:250
+msgid "Audios: Tech Order"
+msgstr "Audios: Orden de Tecnología"
+
+#: includes/cute-mediainfo/class-cutemi-post-type-mediainfo.php:507
+msgid "Autocomplete fields from mediainfo"
+msgstr "Autocompletar campos desde mediainfo"
+
+#: admin/customizer/class-cutemi-customize-settings.php:174
+msgid "Automatic Side Margin"
+msgstr "Margen Lateral Automático"
+
+#: admin/customizer/class-cutemi-customize-settings.php:178
+msgid "Background Color"
+msgstr "Color de Fondo"
+
+#: includes/block/block.json
+msgctxt "block description"
+msgid "Show mediainfo for humans"
+msgstr "Mostrar mediainfo para humanos"
+
+#: admin/customizer/class-cutemi-customize-settings.php:188
+msgid "Block Headers Color"
+msgstr "Color del encabezado de los bloques"
+
+#: admin/customizer/class-cutemi-customize-settings.php:189
+msgid "Block Headers Font Color"
+msgstr "Color de fuente del encabezado de bloques"
+
+#: admin/customizer/class-cutemi-customize-settings.php:190
+msgid "Block Headers Side Width"
+msgstr "Ancho del encabezado(de lado) de los bloques"
+
+#: includes/block/block.json
+msgctxt "block title"
+msgid "Cute MediaInfo"
+msgstr "Cute MediaInfo"
+
+#: admin/customizer/class-cutemi-customize-settings.php:187
+msgid "Blocks Background Color"
+msgstr "Color de fondo de bloques"
+
+#: admin/customizer/class-cutemi-customize-settings.php:186
+msgid "Blocks Border Color"
+msgstr "Color de borde de los bloques"
+
+#: admin/customizer/class-cutemi-customize-settings.php:185
+msgid "Blocks Border Radius"
+msgstr "Radio del borde de los bloques"
+
+#: admin/customizer/class-cutemi-customize-settings.php:184
+msgid "Blocks Border Width"
+msgstr "Ancho del borde de los bloques"
+
+#: admin/customizer/class-cutemi-customize-settings.php:191
+msgid "Blocks Spacing"
+msgstr "Espaciado entre bloques"
+
+#: admin/customizer/class-cutemi-customize-settings.php:198
+msgid "Button Background Color"
+msgstr "Color de fondo del botón"
+
+#: admin/customizer/class-cutemi-customize-settings.php:199
+msgid "Button Border Color"
+msgstr "Color del borde del botón"
+
+#: admin/customizer/class-cutemi-customize-settings.php:203
+msgid "Button Border Radius"
+msgstr "Radio del borde del botón"
+
+#: admin/customizer/class-cutemi-customize-settings.php:202
+msgid "Button Border Width"
+msgstr "Ancho del borde del botón"
+
+#: admin/customizer/class-cutemi-customize-settings.php:204
+msgid "Button Font Color"
+msgstr "Color de fuente del botón"
+
+#: admin/customizer/class-cutemi-customize-settings.php:200
+msgid "Button Height Percentage"
+msgstr "Porcentaje de altura del botón"
+
+#: admin/customizer/class-cutemi-customize-settings.php:201
+msgid "Button Width Percentage"
+msgstr "Porcentaje de ancho del botón"
+
+#: admin/class-cute-mediainfo-settings.php:270
+msgid "Buzz JavaScript port (served by unpkg.com)"
+msgstr "Port JavaScript de Buzz (servido por unpkg.com)"
+
+#: admin/class-cute-mediainfo-settings.php:269
+msgid "Buzz JavaScript port (served by your server)"
+msgstr "Port JavaScript de Buzz (servido por tu servidor)"
+
+#: admin/customizer/class-cutemi-customize-settings.php:196
+msgid "Cell Border"
+msgstr "Borde de Celda"
+
+#: admin/customizer/class-cutemi-customize-settings.php:197
+msgid "Cell Border Color"
+msgstr "Color del Borde de la Celda"
+
+#: admin/customizer/class-cutemi-customize-settings.php:195
+msgid "Cell Padding"
+msgstr "Relleno de Celda"
+
+#: admin/class-cutemi-settings-wizards.php:117
+msgid ""
+"Check the options you want to be available. Deselecting an option will erase "
+"it along with its settings."
+msgstr ""
+"Marque las opciones que desea que estén disponibles. Si anula la selección "
+"de una opción, se borrará junto con su configuración."
+
+#: admin/class-cute-mediainfo-settings.php:245
+msgid ""
+"Check this if you would like to remove ALL data upon plugin deletion. All "
+"settings and videos will be unrecoverable."
+msgstr ""
+"Cheque esto si desea eliminar TODOS los datos al eliminar el complemento. "
+"Todas las configuraciones y videos serán irrecuperables."
+
+#: admin/includes/taxonomy-meta/class-cutemi-taxonomy-audio-langs-metas.php:25
+#: admin/includes/taxonomy-meta/class-cutemi-taxonomy-text-langs-metas.php:25
+msgid ""
+"Check: https://www.loc.gov/standards/iso639-2/php/code_list.php or https:"
+"//en.wikipedia.org/wiki/List_of_ISO_639-1_codes, Ex: es"
+msgstr ""
+"Verifique: https://www.loc.gov/standards/iso639-2/php/code_list.php o https:"
+"//en.wikipedia.org/wiki/List_of_ISO_639-1_codes, Ej: es"
+
+#: includes/cute-mediainfo/class-cutemi-post-type-mediainfo.php:504
+msgid "Choose a Source"
+msgstr "Elija una Fuente"
+
+#: includes/cute-mediainfo/taxonomies.php:26
+#: includes/cute-mediainfo/taxonomies.php:63
+#: includes/cute-mediainfo/taxonomies.php:100
+#: includes/cute-mediainfo/taxonomies.php:137
+#: includes/cute-mediainfo/taxonomies.php:174
+#: includes/cute-mediainfo/taxonomies.php:211
+#: includes/cute-mediainfo/taxonomies.php:248
+#: includes/cute-mediainfo/taxonomies.php:285
+#: includes/cute-mediainfo/taxonomies.php:322
+#: includes/cute-mediainfo/taxonomies.php:359
+#: includes/cute-mediainfo/taxonomies.php:396
+#: includes/cute-mediainfo/taxonomies.php:433
+#: includes/cute-mediainfo/taxonomies.php:469
+#: includes/cute-mediainfo/taxonomies.php:505
+msgid "Choose from the most used"
+msgstr "Elige entre los más usados"
+
+#: admin/class-cute-mediainfo-settings.php:70
+#: includes/class-cutemi-storage.php:46
+msgid "Configure Now"
+msgstr "Configurar Ahora"
+
+#: admin/class-cutemi-settings-credentials.php:202
+msgid "Could not be processed correctly."
+msgstr "No se pudo procesar correctamente."
+
+#: includes/class-cutemi-storage.php:74
+msgid "Could not create Cute Mediainfo CSS directory."
+msgstr "No se pudo crear el directorio CSS de Cute Mediainfo."
+
+#: includes/class-cutemi-storage.php:65
+msgid "Could not create Cute Mediainfo directory."
+msgstr "No se pudo crear el directorio Cute Mediainfo."
+
+#: admin/class-cute-mediainfo-settings.php:519
+msgid "Customize Profile"
+msgstr "Personalizar Perfil"
+
+#. Plugin Name of the plugin
+#: admin/class-cute-mediainfo-settings.php:37
+msgid "Cute MediaInfo"
+msgstr "Cute MediaInfo"
+
+#: admin/class-cute-mediainfo-settings.php:36
+msgid "Cute MediaInfo Settings"
+msgstr "Configuración de Cute MediaInfo"
+
+#: includes/class-cutemi-template-styles.php:303
+msgid "Cute MediaInfo write CSS ERROR."
+msgstr "Cute MediaInfo escritura CSS ERROR"
+
+#: includes/class-cutemi-template-styles.php:321
+msgid "Cute MediaInfo write CSS OK."
+msgstr "Cute MediaInfo escritura CSS OK"
+
+#. translators: digit = minutes
+#: includes/utils.php:20
+msgctxt "cutemi-simple-duration"
+msgid "%dmin"
+msgstr "%dmin"
+
+#. translators: digit = seconds
+#: includes/utils.php:15
+msgctxt "cutemi-simple-duration"
+msgid "%dsec"
+msgstr "%dsec"
+
+#: admin/customizer/class-cutemi-customize-settings.php:172
+msgid "Data Color"
+msgstr "Color de Datos"
+
+#: admin/customizer/class-cutemi-customize-settings.php:321
+msgid "Data to Show"
+msgstr "Datos a Mostrar"
+
+#: includes/cute-mediainfo/class-cutemi-post-type-mediainfo.php:176
+msgid "Date"
+msgstr "Fecha"
+
+#: admin/class-cute-mediainfo-settings.php:195
+msgid "Default profile"
+msgstr "Perfil por defecto"
+
+#: admin/includes/class-cutemi-taxonomy-customs-metas.php:128
+#: includes/cute-mediainfo/class-cutemi-post-type-mediainfo.php:182
+msgid "Description"
+msgstr "Descripción"
+
+#: admin/includes/class-cutemi-taxonomy-customs-metas.php:78
+msgid "Determine the order"
+msgstr "Determina el orden"
+
+#: admin/class-cutemi-settings-credentials.php:157
+msgid "Disable force inline style"
+msgstr "Deshabilitar forzar estilo en línea"
+
+#: admin/class-cutemi-settings-credentials.php:136
+msgid "Disable relaxed file ownership"
+msgstr "Deshabilitar propiedad relajada de archivos"
+
+#. translators: string is the singular name of term. Ex: Video Resolution
+#: admin/includes/class-cutemi-taxonomy-customs-metas.php:110
+msgid "Disable this %s for new videos"
+msgstr "Inhabilita este %s para videos nuevos"
+
+#: admin/class-cute-mediainfo-settings.php:256
+#: admin/includes/class-cutemi-taxonomy-customs-metas.php:113
+msgid "Disabled"
+msgstr "Deshabilitado"
+
+#: admin/admin-init.php:102
+msgid "dismiss"
+msgstr "ocultar"
+
+#: admin/class-cute-mediainfo-settings.php:289
+msgid ""
+"Do not generate static css file, instead add the styles in an inline style "
+"tag on each page. (not recommended)"
+msgstr ""
+"No genere un archivo css estático, en su lugar, agregue los estilos en una "
+"etiqueta de estilo en línea en cada página. (no recomendado)"
+
+#: admin/class-cutemi-settings-credentials.php:247
+msgid ""
+"Do not generate static css file, instead add the styles in an inline style "
+"tag on each page. (not recommended, it increases the size of your pages and "
+"the styles are not cached)."
+msgstr ""
+"No genere un archivo css estático, en su lugar, agregue los estilos en una "
+"etiqueta de estilo en línea en cada página. (no recomendado, aumenta el "
+"tamaño de tus páginas y no se cachean los estilos)."
+
+#: admin/class-cute-mediainfo-settings.php:141
+msgid "Documentation"
+msgstr "Documentación"
+
+#: admin/class-cute-mediainfo-settings.php:204
+msgid "Does not show links with \"Offline\" status to users"
+msgstr "No muestra los link con estado \"Offline\" a los usuarios"
+
+#: admin/customizer/class-cutemi-customize-settings.php:117
+msgid "Dont Show"
+msgstr "No mostrar"
+
+#: admin/customizer/class-cutemi-customize-settings.php:130
+msgid "Dont Show Block Info"
+msgstr "No mostrar información del bloque"
+
+#: includes/cute-mediainfo/class-cutemi-post-type-mediainfo.php:170
+msgid "Duration (seconds)"
+msgstr "Duración (segundos)"
+
+#: admin/class-cute-mediainfo-settings.php:219
+msgid "Duration Format"
+msgstr "Formato de Duración"
+
+#: includes/cute-mediainfo/taxonomies.php:243
+msgid "Edit Audio Bitrate"
+msgstr "Editar la Tasa de Bits de Audio"
+
+#: includes/cute-mediainfo/taxonomies.php:280
+msgid "Edit Audio Bitrate Mode"
+msgstr "Editar Modo de Tasa de Bits de Audio"
+
+#: includes/cute-mediainfo/taxonomies.php:206
+msgid "Edit Audio Channel"
+msgstr "Editar Canal de Audio"
+
+#: includes/cute-mediainfo/taxonomies.php:317
+msgid "Edit Audio Language"
+msgstr "Editar Idioma de Audio"
+
+#: includes/cute-mediainfo/taxonomies.php:169
+msgid "Edit Audio Tech"
+msgstr "Editar Tecnología de Audio"
+
+#: admin/customizer/class-cutemi-customize-settings.php:302
+msgid "Edit colors and dimensions"
+msgstr "Editar colores y dimensiones"
+
+#: admin/customizer/class-cutemi-customize-settings.php:326
+msgid "Edit data to showing"
+msgstr "Editar datos para mostrar"
+
+#: admin/customizer/class-cutemi-customize-settings.php:314
+msgid "Edit how to display block headers"
+msgstr "Editar cómo mostrar el encabezado de los bloques"
+
+#: includes/cute-mediainfo/taxonomies.php:21
+msgid "Edit Link Source"
+msgstr "Editar Fuente de Enlace"
+
+#: includes/cute-mediainfo/class-cutemi-post-type-mediainfo.php:550
+msgid "Edit MediaInfo"
+msgstr "Editar Mediainfo"
+
+#: includes/cute-mediainfo/taxonomies.php:464
+msgid "Edit Text Format"
+msgstr "Editar Formato de Texto"
+
+#: includes/cute-mediainfo/taxonomies.php:428
+msgid "Edit Text Language"
+msgstr "Editar Idioma del Texto"
+
+#: includes/cute-mediainfo/taxonomies.php:500
+msgid "Edit Text Type"
+msgstr "Editar Tipo de Texto"
+
+#: includes/cute-mediainfo/taxonomies.php:95
+msgid "Edit Video Bitrate"
+msgstr "Editar la Tasa de Bits de Video"
+
+#: includes/cute-mediainfo/taxonomies.php:132
+msgid "Edit Video Bitrate Mode"
+msgstr "Editar Modo de Tasa de Bits de Video"
+
+#: includes/cute-mediainfo/taxonomies.php:354
+msgid "Edit Video Format"
+msgstr "Editar Formato de Video"
+
+#: includes/cute-mediainfo/taxonomies.php:58
+msgid "Edit Video Resolution"
+msgstr "Editar Resolución de Video"
+
+#: includes/cute-mediainfo/taxonomies.php:391
+msgid "Edit Video Tech"
+msgstr "Editar Tecnología de Video"
+
+#: admin/customizer/class-cutemi-fake-pages-preview.php:101
+#: includes/block/block.php:47
+msgid "Editing This Table.mp4"
+msgstr "Editando esta tabla"
+
+#: admin/class-cute-mediainfo-settings.php:238
+msgid ""
+"Enable automatic part/size/name extraction from link. This will generate a "
+"request to external servers (gdrive, mega, etc) "
+msgstr ""
+"Habilitar la extracción automática de parte/tamaño/nombre desde el enlace. "
+"Esto generará una solicitud a servidores externos (gdrive, mega, etc.)"
+
+#: admin/class-cutemi-settings-credentials.php:236
+msgid "Enable relaxed file ownership"
+msgstr "Habilite la propiedad relajada de archivos"
+
+#: admin/class-cutemi-settings-credentials.php:233
+msgid ""
+"Enable relaxed file ownership (not recommended, especially on shared hosting)"
+"."
+msgstr ""
+"Habilite la propiedad relajada de archivos (no recomendado, especialmente en "
+"alojamiento compartido)."
+
+#: admin/class-cute-mediainfo-settings.php:274
+msgid "Enable this only as a last resort. First try to set the credentials."
+msgstr ""
+"Habilite esto solo como último recurso. Primero intente establecer las "
+"credenciales."
+
+#: admin/class-cute-mediainfo-settings.php:387
+msgid "Enable this profile"
+msgstr "Habilitar este perfil"
+
+#. translators: %s is array config label
+#: admin/includes/class-cutemi-settings-api.php:1111
+msgid "Error on %s: The setting cannot be empty."
+msgstr "Error en %s: la configuración no puede estar vacía."
+
+#: includes/class-cutemi-template-styles.php:352
+msgid ""
+"Error when trying to delete the previous css. The new styles cannot be "
+"written."
+msgstr ""
+"Error al intentar eliminar el css anterior. Los nuevos estilos no se pueden "
+"escribir."
+
+#: admin/includes/taxonomy-meta/class-cutemi-taxonomy-audio-langs-metas.php:49
+#: admin/includes/taxonomy-meta/class-cutemi-taxonomy-text-langs-metas.php:43
+msgid "Ex: Español"
+msgstr "Ej: Español"
+
+#: admin/includes/taxonomy-meta/class-cutemi-taxonomy-site-sources-metas.php:26
+#: admin/includes/taxonomy-meta/class-cutemi-taxonomy-site-sources-metas.php:32
+#: admin/includes/taxonomy-meta/class-cutemi-taxonomy-site-sources-metas.php:38
+msgid "Ex: https://source-domain.com/file/%ID%"
+msgstr "Ej: https://source-domain.com/file/%ID%"
+
+#: admin/includes/taxonomy-meta/class-cutemi-taxonomy-audio-langs-metas.php:43
+#: admin/includes/taxonomy-meta/class-cutemi-taxonomy-text-langs-metas.php:37
+msgid "Ex: MX"
+msgstr "Ej: MX"
+
+#: admin/includes/taxonomy-meta/class-cutemi-taxonomy-audio-langs-metas.php:37
+msgid "Ex: nan"
+msgstr "Ej: nan"
+
+#: admin/includes/taxonomy-meta/class-cutemi-taxonomy-audio-langs-metas.php:31
+#: admin/includes/taxonomy-meta/class-cutemi-taxonomy-text-langs-metas.php:31
+msgid "Ex: spa"
+msgstr "Ej: spa"
+
+#: admin/customizer/class-cutemi-customize-settings.php:173
+msgid "External Margin"
+msgstr "Margen externo"
+
+#: admin/includes/taxonomy-meta/class-cutemi-taxonomy-site-sources-metas.php:16
+msgid "Extract File ID Regexs"
+msgstr "Expresión regular para extraer ID de archivo"
+
+#: includes/cute-mediainfo/class-cutemi-post-type-mediainfo.php:117
+msgid "Extracted ID"
+msgstr "ID extraído"
+
+#: includes/cute-mediainfo/class-cutemi-post-type-mediainfo.php:557
+msgid "Featured Image"
+msgstr "Imagen principal"
+
+#: admin/includes/class-cutemi-taxonomy-customs-metas.php:144
+msgid ""
+"Fields that you edit and want them to not change when the plugin updates."
+msgstr ""
+"Campos que edita y desea que no cambien cuando se actualice el complemento."
+
+#: includes/cute-mediainfo/class-cutemi-post-type-mediainfo.php:565
+msgid "Filter items list"
+msgstr "Filtros de lista de elementos"
+
+#: admin/customizer/class-cutemi-customize-settings.php:601
+msgid "Font"
+msgstr "Fuente"
+
+#: admin/customizer/class-cutemi-customize-settings.php:171
+msgid "Font Size"
+msgstr "Tamaño de Fuente"
+
+#: admin/class-cute-mediainfo-settings.php:288
+#: admin/class-cutemi-settings-credentials.php:250
+msgid "Force CSS inline"
+msgstr "Forzar CSS en línea"
+
+#: admin/class-cutemi-settings-credentials.php:175
+msgid "Force inline style is disabled."
+msgstr "Forzado de estilo en línea está deshabilitado."
+
+#: admin/class-cutemi-settings-credentials.php:150
+msgid "Force inline style is enabled."
+msgstr "Forzado de estilo en línea está habilitado."
+
+#: includes/cute-mediainfo/class-cutemi-post-type-mediainfo.php:153
+msgid "Format"
+msgstr "Formato"
+
+#: includes/functions-settings.php:41
+msgid "Full"
+msgstr "Completo"
+
+#: includes/cute-mediainfo/class-cutemi-post-type-mediainfo.php:79
+#: includes/cute-mediainfo/class-cutemi-post-type-mediainfo.php:83
+msgid "Full MediaInfo"
+msgstr "MediaInfo Completa"
+
+#: admin/class-cutemi-settings-wizards.php:120
+msgid "General"
+msgstr "General"
+
+#: admin/customizer/class-cutemi-customize-settings.php:206
+msgid "General Block"
+msgstr "Bloque General"
+
+#: admin/customizer/class-cutemi-customize-settings.php:207
+msgid "General Header"
+msgstr "Encabezado General"
+
+#: admin/customizer/class-cutemi-customize-settings.php:208
+msgid "General Header Layout"
+msgstr "Disposición de encabezado General"
+
+#: admin/class-cute-mediainfo-settings.php:112
+msgid "General Settings"
+msgstr "Configuración General"
+
+#: admin/customizer/class-cutemi-customize-settings.php:230
+msgid "General: Date Layout"
+msgstr "General: Disposición de Fecha"
+
+#: admin/customizer/class-cutemi-customize-settings.php:232
+msgid "General: Date Order"
+msgstr "General: Orden de Fecha"
+
+#: admin/customizer/class-cutemi-customize-settings.php:231
+msgid "General: Date Row Number"
+msgstr "General: Número de Fila de Fecha"
+
+#: admin/customizer/class-cutemi-customize-settings.php:236
+msgid "General: Desc Layout"
+msgstr "General: Disposición de Descripción"
+
+#: admin/customizer/class-cutemi-customize-settings.php:238
+msgid "General: Desc Order"
+msgstr "General: Orden de Descripción"
+
+#: admin/customizer/class-cutemi-customize-settings.php:237
+msgid "General: Desc Row Number"
+msgstr "General: Número de fila de Descripción"
+
+#: admin/customizer/class-cutemi-customize-settings.php:233
+msgid "General: Duration Layout"
+msgstr "General: Disposición de Duración"
+
+#: admin/customizer/class-cutemi-customize-settings.php:235
+msgid "General: Duration Order"
+msgstr "General: Orden de Duración"
+
+#: admin/customizer/class-cutemi-customize-settings.php:234
+msgid "General: Duration Row Number"
+msgstr "General: Número de fila de Duración"
+
+#: admin/customizer/class-cutemi-customize-settings.php:224
+msgid "General: Format Layout"
+msgstr "General: Disposición de formato"
+
+#: admin/customizer/class-cutemi-customize-settings.php:226
+msgid "General: Format Order"
+msgstr "General: Orden de Formato"
+
+#: admin/customizer/class-cutemi-customize-settings.php:225
+msgid "General: Format Row Number"
+msgstr "General: Número de fila de Formato"
+
+#: admin/customizer/class-cutemi-customize-settings.php:227
+msgid "General: Size Layout"
+msgstr "General: Disposición de Tamaño"
+
+#: admin/customizer/class-cutemi-customize-settings.php:229
+msgid "General: Size Order"
+msgstr "General: Orden de Tamaño"
+
+#: admin/customizer/class-cutemi-customize-settings.php:228
+msgid "General: Size Row Number"
+msgstr "General: Número de Fila de Tamaño"
+
+#: admin/customizer/class-cutemi-customize-settings.php:615
+msgid "Google Font"
+msgstr "Fuente de Google"
+
+#: admin/customizer/class-cutemi-customize-settings.php:630
+msgid "Google Font For MediaInfo"
+msgstr "Fuente de Google para MediaInfo"
+
+#: admin/includes/taxonomy-meta/class-cutemi-taxonomy-site-sources-metas.php:62
+msgid "Hidden"
+msgstr "Oculto"
+
+#: admin/class-cute-mediainfo-settings.php:203
+msgid "Hide Offline Links"
+msgstr "Esconder Links Offline"
+
+#. translators: string is the group name, ex: general,videos,audios,etc
+#: admin/customizer/class-cutemi-customize-settings.php:706
+msgid "Hide/Order \"%s\" block [priority 1 listed first]"
+msgstr "Ocultar/Ordenar bloque \"%s\" [prioridad 1 se lista primero]"
+
+#. translators: string is the field label, ex: Size, Format, Audio Tech
+#: admin/customizer/class-cutemi-customize-settings.php:775
+msgid "How %s title are show"
+msgstr "Cómo se muestran los títulos de %s"
+
+#. translators: string is the group name, ex: general,videos,audios,etc
+#: admin/customizer/class-cutemi-customize-settings.php:736
+msgid "How title for \"%s\" are show"
+msgstr "Cómo se muestra el título de \"%s\""
+
+#. Plugin URI of the plugin
+msgid "https://cutemi-docs.galetto.info/"
+msgstr "https://cutemi-docs.galetto.info/"
+
+#. Author URI of the plugin
+#| msgid "https://geletto.net"
+msgid "https://geletto.info"
+msgstr "https://geletto.info"
+
+#: admin/includes/class-cutemi-taxonomy-customs-metas.php:94
+#: admin/includes/class-cutemi-taxonomy-customs-metas.php:101
+msgid "Icon"
+msgstr "Icono"
+
+#: admin/customizer/class-cutemi-customize-settings.php:112
+#: admin/customizer/class-cutemi-customize-settings.php:120
+msgid "Icon -> Text"
+msgstr "Icono -> Texto"
+
+#: admin/class-cute-mediainfo-settings.php:176
+msgid "Icon Pack"
+msgstr "Paquete de iconos"
+
+#: admin/customizer/class-cutemi-customize-settings.php:111
+#: admin/customizer/class-cutemi-customize-settings.php:119
+msgid "Icon ¬ Text"
+msgstr "Icono ¬ Texto"
+
+#: admin/customizer/class-cutemi-customize-settings.php:121
+msgid "Icon ¬-> Text"
+msgstr "Icono ¬-> Texto"
+
+#: admin/customizer/class-cutemi-customize-settings.php:180
+msgid "Internal Border Radius"
+msgstr "Radio del borde interno"
+
+#: admin/class-cutemi-settings-credentials.php:76
+#: admin/class-cutemi-settings-wizards.php:101
+msgid "Invalid nonce. Please try again."
+msgstr "Nonce no válido. Inténtalo de nuevo."
+
+#: admin/includes/taxonomy-meta/class-cutemi-taxonomy-audio-langs-metas.php:40
+#: admin/includes/taxonomy-meta/class-cutemi-taxonomy-text-langs-metas.php:34
+msgid "ISO 3166-1 Region Code"
+msgstr "Código de región ISO 3166-1"
+
+#: admin/includes/taxonomy-meta/class-cutemi-taxonomy-audio-langs-metas.php:22
+#: admin/includes/taxonomy-meta/class-cutemi-taxonomy-text-langs-metas.php:22
+msgid "ISO 639-1 Code"
+msgstr "Código ISO 639-1"
+
+#: admin/includes/taxonomy-meta/class-cutemi-taxonomy-audio-langs-metas.php:28
+#: admin/includes/taxonomy-meta/class-cutemi-taxonomy-text-langs-metas.php:28
+msgid "ISO 639-2 Code"
+msgstr "Código ISO 639-2"
+
+#: admin/includes/taxonomy-meta/class-cutemi-taxonomy-audio-langs-metas.php:34
+msgid "ISO 639-3 Code"
+msgstr "Código ISO 639-3"
+
+#: includes/cute-mediainfo/class-cutemi-post-type-mediainfo.php:563
+#: includes/cute-mediainfo/taxonomies.php:31
+#: includes/cute-mediainfo/taxonomies.php:68
+#: includes/cute-mediainfo/taxonomies.php:105
+#: includes/cute-mediainfo/taxonomies.php:142
+#: includes/cute-mediainfo/taxonomies.php:179
+#: includes/cute-mediainfo/taxonomies.php:216
+#: includes/cute-mediainfo/taxonomies.php:253
+#: includes/cute-mediainfo/taxonomies.php:290
+#: includes/cute-mediainfo/taxonomies.php:327
+#: includes/cute-mediainfo/taxonomies.php:364
+#: includes/cute-mediainfo/taxonomies.php:401
+#: includes/cute-mediainfo/taxonomies.php:438
+#: includes/cute-mediainfo/taxonomies.php:474
+#: includes/cute-mediainfo/taxonomies.php:510
+msgid "Items list"
+msgstr "Lista de elementos"
+
+#: includes/cute-mediainfo/class-cutemi-post-type-mediainfo.php:564
+#: includes/cute-mediainfo/taxonomies.php:32
+#: includes/cute-mediainfo/taxonomies.php:69
+#: includes/cute-mediainfo/taxonomies.php:106
+#: includes/cute-mediainfo/taxonomies.php:143
+#: includes/cute-mediainfo/taxonomies.php:180
+#: includes/cute-mediainfo/taxonomies.php:217
+#: includes/cute-mediainfo/taxonomies.php:254
+#: includes/cute-mediainfo/taxonomies.php:291
+#: includes/cute-mediainfo/taxonomies.php:328
+#: includes/cute-mediainfo/taxonomies.php:365
+#: includes/cute-mediainfo/taxonomies.php:402
+#: includes/cute-mediainfo/taxonomies.php:439
+#: includes/cute-mediainfo/taxonomies.php:475
+#: includes/cute-mediainfo/taxonomies.php:511
+msgid "Items list navigation"
+msgstr "Navegación por la lista de elementos"
+
+#: admin/class-cute-mediainfo-settings.php:377
+msgid "Label"
+msgstr "Etiqueta"
+
+#: admin/customizer/class-cutemi-customize-settings.php:309
+msgid "Layout (Blocks/Headers)"
+msgstr "Disposición (Bloques/Encabezados)"
+
+#: admin/customizer/class-cutemi-customize-settings.php:104
+msgid "Left Side"
+msgstr "Lado izquierdo"
+
+#: admin/customizer/class-cutemi-customize-settings.php:105
+msgid "Left, but top on Small"
+msgstr "Izquierda, pero en pequeño arriba"
+
+#: admin/customizer/class-cutemi-customize-settings.php:126
+#: includes/cute-mediainfo/class-cutemi-post-type-mediainfo.php:94
+msgid "Link"
+msgstr "Enlace"
+
+#: admin/class-cute-mediainfo-settings.php:237
+#| msgid "Link Data Extractor"
+msgid "Link data extractor"
+msgstr "Extractor de datos de Enlace"
+
+#: includes/functions-settings.php:423
+msgid "Link Image URL"
+msgstr "URL de la imagen del enlace"
+
+#: includes/cute-mediainfo/class-cutemi-post-type-mediainfo.php:100
+#: includes/cute-mediainfo/class-cutemi-post-type-mediainfo.php:102
+msgid "Link Source"
+msgstr "Fuente de Enlace"
+
+#: includes/cute-mediainfo/taxonomies.php:15
+msgid "Link Sources"
+msgstr "Fuentes de Enlace"
+
+#: includes/functions-settings.php:418
+msgid "Link Text"
+msgstr "Texto de enlace"
+
+#: admin/customizer/class-cutemi-customize-settings.php:218
+msgid "Links Block"
+msgstr "Bloque de Enlaces"
+
+#: admin/customizer/class-cutemi-customize-settings.php:219
+msgid "Links Header"
+msgstr "Encabezado de Enlaces"
+
+#: admin/customizer/class-cutemi-customize-settings.php:220
+msgid "Links Header Layout"
+msgstr "Disposición de encabezado de Enlaces"
+
+#: admin/customizer/class-cutemi-customize-settings.php:269
+msgid "Links: Link Layout"
+msgstr "Enlaces: Disposición de Enlaces"
+
+#: admin/customizer/class-cutemi-customize-settings.php:270
+msgid "Links: Link Order"
+msgstr "Enlaces: Orden de Enlace"
+
+#: admin/customizer/class-cutemi-customize-settings.php:265
+msgid "Links: Part Layout"
+msgstr "Enlaces: Disposición de Piezas"
+
+#: admin/customizer/class-cutemi-customize-settings.php:266
+msgid "Links: Part Order"
+msgstr "Enlaces: Orden de Piezas"
+
+#: admin/customizer/class-cutemi-customize-settings.php:267
+msgid "Links: Size Layout"
+msgstr "Enlaces: Disposición de Tamaño"
+
+#: admin/customizer/class-cutemi-customize-settings.php:268
+msgid "Links: Size Order"
+msgstr "Enlaces: Orden de Tamaño"
+
+#: admin/customizer/class-cutemi-customize-settings.php:263
+msgid "Links: Source Layout"
+msgstr "Enlaces: Disposición de Fuente"
+
+#: admin/customizer/class-cutemi-customize-settings.php:264
+msgid "Links: Source Order"
+msgstr "Enlaces: Orden de Fuente"
+
+#. Author of the plugin
+msgid "Mauricio Galetto"
+msgstr "Mauricio galetto"
+
+#: admin/customizer/class-cutemi-customize-settings.php:182
+msgid "Max Width"
+msgstr "Anchura máxima"
+
+#: includes/cute-mediainfo/class-cutemi-post-type-mediainfo.php:541
+#: includes/cute-mediainfo/class-cutemi-post-type-mediainfo.php:542
+#: includes/cute-mediainfo/class-cutemi-post-type-mediainfo.php:578
+msgid "MediaInfo"
+msgstr "MediaInfo"
+
+#: includes/cute-mediainfo/class-cutemi-post-type-mediainfo.php:543
+msgid "MediaInfo Archives"
+msgstr "Archivos de MediaInfo"
+
+#: includes/cute-mediainfo/class-cutemi-post-type-mediainfo.php:544
+msgid "MediaInfo Attributes"
+msgstr "Atributos de MediaInfo"
+
+#: admin/customizer/class-cutemi-customize-settings.php:221
+msgid "Mediainfo Block"
+msgstr "Bloque Mediainfo"
+
+#: includes/cute-mediainfo/class-cutemi-post-type-mediainfo.php:579
+msgid "MediaInfo Description"
+msgstr "Descripción de MediaInfo"
+
+#: admin/customizer/class-cutemi-customize-settings.php:205
+msgid "Mediainfo Font Size"
+msgstr "Tamaño de fuente de Mediainfo"
+
+#. Description of the plugin
+msgid "Mediainfo for humans. Cute way to display video file information."
+msgstr ""
+"Mediainfo para humanos. Bonita forma de mostrar información de archivos de "
+"video."
+
+#: includes/cute-mediainfo/class-cutemi-post-type-mediainfo.php:539
+msgctxt "MediaInfo General Name"
+msgid "MediaInfo"
+msgstr "MediaInfo"
+
+#: admin/customizer/class-cutemi-customize-settings.php:222
+msgid "Mediainfo Header"
+msgstr "Encabezado de Mediainfo"
+
+#: admin/customizer/class-cutemi-customize-settings.php:223
+msgid "Mediainfo Header Layout"
+msgstr "Disposición de encabezado de Mediainfo"
+
+#: includes/block/build/index.js:1 includes/block/src/edit.js:188
+msgid "MediaInfo ID"
+msgstr "MediaInfo ID"
+
+#: includes/cute-mediainfo/class-cutemi-post-type-mediainfo.php:540
+msgctxt "MediaInfo Singular Name"
+msgid "MediaInfo"
+msgstr "MediaInfo"
+
+#: admin/class-cute-mediainfo-settings.php:263
+msgid "MediaInfoLib version"
+msgstr "Version de MediaInfoLib"
+
+#: admin/class-cute-mediainfo-settings.php:251
+msgid "Method to color the header svg"
+msgstr "Método para colorear el svg del encabezado"
+
+#: admin/customizer/class-cutemi-customize-settings.php:181
+msgid "Min Width"
+msgstr "Anchura mínima"
+
+#: admin/customizer/class-cutemi-customize-settings.php:183
+msgid "Multiline Max Height"
+msgstr "Altura máxima multilínea"
+
+#: admin/customizer/class-cutemi-customize-settings.php:124
+msgid "Multiline Text"
+msgstr "Texto multilinea"
+
+#: admin/includes/class-cutemi-taxonomy-customs-metas.php:127
+#: includes/cute-mediainfo/class-cutemi-post-type-mediainfo.php:112
+msgid "Name"
+msgstr "Nombre"
+
+#: admin/class-cute-mediainfo-settings.php:378
+msgid "Name to display"
+msgstr "Nombre para mostrar"
+
+#: admin/includes/taxonomy-meta/class-cutemi-taxonomy-audio-langs-metas.php:46
+#: admin/includes/taxonomy-meta/class-cutemi-taxonomy-text-langs-metas.php:40
+msgid "Native"
+msgstr "Nativo"
+
+#: includes/cute-mediainfo/taxonomies.php:278
+msgid "New Audio Bitrate Mode Name"
+msgstr "Nuevo nombre del Modo de Tasa de Bits de Audio"
+
+#: includes/cute-mediainfo/taxonomies.php:241
+msgid "New Audio Bitrate Name"
+msgstr "Nuevo nombre de Tasa de Bits de Audio"
+
+#: includes/cute-mediainfo/taxonomies.php:204
+msgid "New Audio Channel Name"
+msgstr "Nuevo nombre de Canal de Audio"
+
+#: includes/cute-mediainfo/taxonomies.php:315
+msgid "New Audio Language Name"
+msgstr "Nuevo nombre de Idioma de Audio"
+
+#: includes/cute-mediainfo/taxonomies.php:167
+msgid "New Audio Tech Name"
+msgstr "Nuevo nombre de Tecnología de Audio"
+
+#: includes/cute-mediainfo/taxonomies.php:19
+msgid "New Link Source Name"
+msgstr "Nuevo nombre de Fuente de Enlace"
+
+#: includes/cute-mediainfo/class-cutemi-post-type-mediainfo.php:549
+msgid "New MediaInfo"
+msgstr "Nuevo MediaInfo"
+
+#: includes/cute-mediainfo/taxonomies.php:462
+msgid "New Text Format Name"
+msgstr "Nuevo nombre de Formato de Texto"
+
+#: includes/cute-mediainfo/taxonomies.php:426
+msgid "New Text Language Name"
+msgstr "Nuevo nombre de Idioma de Texto"
+
+#: includes/cute-mediainfo/taxonomies.php:498
+msgid "New Text Type Name"
+msgstr "Nombre del nuevo Tipo de Texto"
+
+#: includes/cute-mediainfo/taxonomies.php:130
+msgid "New Video Bitrate Mode Name"
+msgstr "Nuevo nombre del Modo de Tasa de Bits de Video"
+
+#: includes/cute-mediainfo/taxonomies.php:93
+msgid "New Video Bitrate Name"
+msgstr "Nuevo nombre de Tasa de Bits de Video"
+
+#: includes/cute-mediainfo/taxonomies.php:352
+msgid "New Video Format Name"
+msgstr "Nuevo nombre de Formato de Video"
+
+#: includes/cute-mediainfo/taxonomies.php:56
+msgid "New Video Resolution Name"
+msgstr "Nuevo nombre de Resolución de Video"
+
+#: includes/cute-mediainfo/taxonomies.php:389
+msgid "New Video Tech Name"
+msgstr "Nuevo nombre de Tecnología de Video"
+
+#: admin/class-cutemi-settings-wizards.php:203
+msgid "Next"
+msgstr "Siguiente"
+
+#: includes/cute-mediainfo/taxonomies.php:289
+msgid "No Audio Bitrate Modes"
+msgstr "Sin Modos de Tasa de Bits de Audio"
+
+#: includes/cute-mediainfo/taxonomies.php:252
+msgid "No Audio Bitrates"
+msgstr "Sin Tasas de Bits de Audio"
+
+#: includes/cute-mediainfo/taxonomies.php:215
+msgid "No Audio Channels"
+msgstr "Sin Canales de Audio"
+
+#: includes/cute-mediainfo/taxonomies.php:326
+msgid "No Audio Languages"
+msgstr "Sin Idiomas de Audio"
+
+#: includes/cute-mediainfo/taxonomies.php:178
+msgid "No Audio Techs"
+msgstr "Sin Tecnologías de Audio"
+
+#: includes/cute-mediainfo/taxonomies.php:30
+msgid "No Link Sources"
+msgstr "Sin Fuentes de Enlace"
+
+#: includes/cute-mediainfo/taxonomies.php:473
+msgid "No Text Formats"
+msgstr "Sin Formatos de Texto"
+
+#: includes/cute-mediainfo/taxonomies.php:437
+msgid "No Text Languages"
+msgstr "No hay Idiomas de Texto"
+
+#: includes/cute-mediainfo/taxonomies.php:509
+msgid "No Text Types"
+msgstr "Sin Tipos de Texto"
+
+#: includes/cute-mediainfo/taxonomies.php:141
+msgid "No Video Bitrate Modes"
+msgstr "Sin Modos de Tasa de Bits de Video"
+
+#: includes/cute-mediainfo/taxonomies.php:104
+msgid "No Video Bitrates"
+msgstr "Sin Tasas de Bits de Video"
+
+#: includes/cute-mediainfo/taxonomies.php:363
+msgid "No Video Formats"
+msgstr "Sin Formatos de Video"
+
+#: includes/cute-mediainfo/taxonomies.php:67
+msgid "No Video Resolutions"
+msgstr "Sin Resoluciones de Video"
+
+#: includes/cute-mediainfo/taxonomies.php:400
+msgid "No Video Techs"
+msgstr "Sin Tecnología de Video"
+
+#: includes/cute-mediainfo/taxonomies.php:29
+#: includes/cute-mediainfo/taxonomies.php:66
+#: includes/cute-mediainfo/taxonomies.php:103
+#: includes/cute-mediainfo/taxonomies.php:140
+#: includes/cute-mediainfo/taxonomies.php:177
+#: includes/cute-mediainfo/taxonomies.php:214
+#: includes/cute-mediainfo/taxonomies.php:251
+#: includes/cute-mediainfo/taxonomies.php:288
+#: includes/cute-mediainfo/taxonomies.php:325
+#: includes/cute-mediainfo/taxonomies.php:362
+#: includes/cute-mediainfo/taxonomies.php:399
+#: includes/cute-mediainfo/taxonomies.php:436
+#: includes/cute-mediainfo/taxonomies.php:472
+#: includes/cute-mediainfo/taxonomies.php:508
+msgid "Not Found"
+msgstr "No Encontrado"
+
+#: includes/cute-mediainfo/class-cutemi-post-type-mediainfo.php:555
+msgid "Not found"
+msgstr "No Encontrado"
+
+#: includes/cute-mediainfo/class-cutemi-post-type-mediainfo.php:556
+msgid "Not found in Trash"
+msgstr "No encontrado en la Papelera"
+
+#: admin/class-cutemi-settings-wizards.php:226
+msgid "Now you can continue with general settings or customize profiles"
+msgstr ""
+"Ahora puede continuar con la configuración general o personalizar perfiles"
+
+#: admin/class-cute-mediainfo-settings.php:268
+msgid "Official MediaInfo (served by your server)"
+msgstr "MediaInfo Oficial (servido por tu servidor)"
+
+#: admin/includes/taxonomy-meta/class-cutemi-taxonomy-site-sources-metas.php:59
+msgid ""
+"One proxy per line. Format: 11.12.123.123:8080[:http|socks4|socks5][:user:"
+"pass], Ex: 11.12.123.123:8080:http:user:pass"
+msgstr ""
+"Un proxy por línea. Formato: 11.12.123.123:8080[:http|socks4|socks5][:user:"
+"pass], Ej: 11.12.123.123:8080:http:user:pass"
+
+#: admin/customizer/class-cutemi-customize-settings.php:113
+#: admin/customizer/class-cutemi-customize-settings.php:123
+msgid "Only Icon"
+msgstr "Solo icono"
+
+#: admin/customizer/class-cutemi-customize-settings.php:110
+#: admin/customizer/class-cutemi-customize-settings.php:118
+msgid "Only Text"
+msgstr "Solo texto"
+
+#: admin/customizer/class-cutemi-customize-settings.php:177
+msgid "Outer Blocks Padding"
+msgstr "Relleno exterior de bloques"
+
+#: admin/customizer/class-cutemi-customize-settings.php:176
+msgid "Outer Border Color"
+msgstr "Color del borde exterior"
+
+#: admin/customizer/class-cutemi-customize-settings.php:179
+msgid "Outer Border Radius"
+msgstr "Radio del borde exterior"
+
+#: admin/customizer/class-cutemi-customize-settings.php:175
+msgid "Outer Border Width"
+msgstr "Ancho del borde exterior"
+
+#: includes/cute-mediainfo/taxonomies.php:239
+msgid "Parent Audio Bitrate"
+msgstr "Tasa de Bits de Audio Superior"
+
+#: includes/cute-mediainfo/taxonomies.php:276
+msgid "Parent Audio Bitrate Mode"
+msgstr "Modo de Tasa de Bits de Audio Superior"
+
+#: includes/cute-mediainfo/taxonomies.php:277
+msgid "Parent Audio Bitrate Mode:"
+msgstr "Modo de Tasa de Bits de Audio Superior:"
+
+#: includes/cute-mediainfo/taxonomies.php:240
+msgid "Parent Audio Bitrate:"
+msgstr "Tasa de Bits de Audio Superior:"
+
+#: includes/cute-mediainfo/taxonomies.php:202
+msgid "Parent Audio Channel"
+msgstr "Canal de Audio Superior"
+
+#: includes/cute-mediainfo/taxonomies.php:203
+msgid "Parent Audio Channel:"
+msgstr "Canal de Audio Superior:"
+
+#: includes/cute-mediainfo/taxonomies.php:313
+msgid "Parent Audio Language"
+msgstr "Idioma de Audio Superior"
+
+#: includes/cute-mediainfo/taxonomies.php:314
+msgid "Parent Audio Language:"
+msgstr "Idioma de Audio Superior:"
+
+#: includes/cute-mediainfo/taxonomies.php:165
+msgid "Parent Audio Tech"
+msgstr "Tecnología de Audio Superior"
+
+#: includes/cute-mediainfo/taxonomies.php:166
+msgid "Parent Audio Tech:"
+msgstr "Tecnología de Audio Superior:"
+
+#: includes/cute-mediainfo/class-cutemi-post-type-mediainfo.php:545
+msgid "Parent MediaInfo:"
+msgstr "MediaInfo Superior:"
+
+#: includes/cute-mediainfo/taxonomies.php:17
+msgid "Parent Source"
+msgstr "Fuente Superior"
+
+#: includes/cute-mediainfo/taxonomies.php:18
+msgid "Parent Source:"
+msgstr "Fuente Superior:"
+
+#: includes/cute-mediainfo/taxonomies.php:460
+msgid "Parent Text Format"
+msgstr "Formato de Texto Superior"
+
+#: includes/cute-mediainfo/taxonomies.php:461
+msgid "Parent Text Format:"
+msgstr "Formato de Texto Superior:"
+
+#: includes/cute-mediainfo/taxonomies.php:424
+msgid "Parent Text Language"
+msgstr "Idioma del Texto Superior"
+
+#: includes/cute-mediainfo/taxonomies.php:425
+msgid "Parent Text Language:"
+msgstr "Idioma del Texto Superior:"
+
+#: includes/cute-mediainfo/taxonomies.php:496
+msgid "Parent Text Type"
+msgstr "Tipo de Texto Superior"
+
+#: includes/cute-mediainfo/taxonomies.php:497
+msgid "Parent Text Type:"
+msgstr "Tipo de Texto Superior:"
+
+#: includes/cute-mediainfo/taxonomies.php:91
+msgid "Parent Video Bitrate"
+msgstr "Tasa de Bits de Video Superior"
+
+#: includes/cute-mediainfo/taxonomies.php:128
+msgid "Parent Video Bitrate Mode"
+msgstr "Modo de Tasa de Bits de Video Superior"
+
+#: includes/cute-mediainfo/taxonomies.php:129
+msgid "Parent Video Bitrate Mode:"
+msgstr "Modo de Tasa de Bits de Video Superior:"
+
+#: includes/cute-mediainfo/taxonomies.php:92
+msgid "Parent Video Bitrate:"
+msgstr "Tasa de Bits del Video Superior:"
+
+#: includes/cute-mediainfo/taxonomies.php:350
+msgid "Parent Video Format"
+msgstr "Formato de Video Superior"
+
+#: includes/cute-mediainfo/taxonomies.php:351
+msgid "Parent Video Format:"
+msgstr "Formato de Video Superior:"
+
+#: includes/cute-mediainfo/taxonomies.php:54
+msgid "Parent Video Resolution"
+msgstr "Resolución de Video Superior"
+
+#: includes/cute-mediainfo/taxonomies.php:55
+msgid "Parent Video Resolution:"
+msgstr "Resolución de video Superior:"
+
+#: includes/cute-mediainfo/taxonomies.php:387
+msgid "Parent Video Tech"
+msgstr "Tecnología de Video Superior"
+
+#: includes/cute-mediainfo/taxonomies.php:388
+msgid "Parent Video Tech:"
+msgstr "Tecnología de Video Superior:"
+
+#: includes/cute-mediainfo/class-cutemi-post-type-mediainfo.php:123
+msgid "Part Nro"
+msgstr "Parte Nro"
+
+#: includes/cute-mediainfo/class-cutemi-post-type-mediainfo.php:130
+msgid "Part Size"
+msgstr "Tamaño de pieza"
+
+#: includes/cute-mediainfo/taxonomies.php:286
+msgid "Popular Audio Bitrate Modes"
+msgstr "Modos de Tasa de Bits de Audio populares"
+
+#: includes/cute-mediainfo/taxonomies.php:249
+msgid "Popular Audio Bitrates"
+msgstr "Tasas de Bits de Audio populares"
+
+#: includes/cute-mediainfo/taxonomies.php:212
+msgid "Popular Audio Channels"
+msgstr "Canales de Audio populares"
+
+#: includes/cute-mediainfo/taxonomies.php:323
+msgid "Popular Audio Languages"
+msgstr "Idiomas de Audio populares"
+
+#: includes/cute-mediainfo/taxonomies.php:175
+msgid "Popular Audio Techs"
+msgstr "Tecnologías de Audio populares"
+
+#: includes/cute-mediainfo/taxonomies.php:27
+msgid "Popular Link Sources"
+msgstr "Fuentes de Enlaces populares"
+
+#: includes/cute-mediainfo/taxonomies.php:470
+msgid "Popular Text Formats"
+msgstr "Formatos de Texto populares"
+
+#: includes/cute-mediainfo/taxonomies.php:434
+msgid "Popular Text Languages"
+msgstr "Idiomas de Texto populares"
+
+#: includes/cute-mediainfo/taxonomies.php:506
+msgid "Popular Text Types"
+msgstr "Tipos de Texto populares"
+
+#: includes/cute-mediainfo/taxonomies.php:138
+msgid "Popular Video Bitrate Modes"
+msgstr "Modos de Tasa de Bits de Video populares"
+
+#: includes/cute-mediainfo/taxonomies.php:101
+msgid "Popular Video Bitrates"
+msgstr "Tasas de Bits de Video populares"
+
+#: includes/cute-mediainfo/taxonomies.php:360
+msgid "Popular Video Formats"
+msgstr "Formatos de Video populares"
+
+#: includes/cute-mediainfo/taxonomies.php:64
+msgid "Popular Video Resolutions"
+msgstr "Resoluciones de Video populares"
+
+#: includes/cute-mediainfo/taxonomies.php:397
+msgid "Popular Video Techs"
+msgstr "Tecnologías de Video populares"
+
+#. translators: digit is the number on row position
+#: admin/customizer/class-cutemi-customize-settings.php:140
+msgid "Position %d"
+msgstr "Posición %d"
+
+#: admin/customizer/class-cutemi-customize-settings.php:810
+msgid "position: 1 2 3..."
+msgstr "posición: 1 2 3 ..."
+
+#: admin/customizer/class-cutemi-customize-settings.php:125
+msgid "Preformatted Text"
+msgstr "Texto preformateado"
+
+#: admin/includes/class-cutemi-taxonomy-customs-metas.php:141
+msgid "Prevent changes when updating"
+msgstr "Evitar cambios al actualizar"
+
+#: admin/includes/class-cutemi-taxonomy-customs-metas.php:75
+#: admin/includes/class-cutemi-taxonomy-customs-metas.php:83
+msgid "Priority"
+msgstr "Prioridad"
+
+#. translators:  %3$s is the profile label, Ex: Summary
+#: admin/class-cute-mediainfo-settings.php:305
+msgid "Profile %3$s"
+msgstr "Perfil %3$s"
+
+#. translators: string is the profile label, ex: Full, Summary, ...
+#: admin/customizer/class-cutemi-customize-settings.php:284
+msgid "Profile: %s (Cute MI)"
+msgstr "Perfil: %s (Cute MI)"
+
+#: admin/class-cute-mediainfo-settings.php:122
+msgid "Profiles"
+msgstr "Perfiles"
+
+#: admin/class-cute-mediainfo-settings.php:308
+msgid "Profiles Styles"
+msgstr "Estilos de perfiles"
+
+#: admin/includes/taxonomy-meta/class-cutemi-taxonomy-site-sources-metas.php:55
+msgid "Proxy lists"
+msgstr "Lista de proxys"
+
+#: admin/includes/taxonomy-meta/class-cutemi-taxonomy-site-sources-metas.php:20
+msgid "Regex per line, Ex: https?://source-domain.com/file/([a-zA-Z0-9_-]+)"
+msgstr "Regex por línea, Ej: https?://source-domain.com/file/([a-zA-Z0-9_-]+)"
+
+#: admin/includes/taxonomy-meta/class-cutemi-taxonomy-site-sources-metas.php:48
+msgid "Regex Size"
+msgstr "Regex para el tamaño"
+
+#: admin/includes/taxonomy-meta/class-cutemi-taxonomy-site-sources-metas.php:41
+msgid "Regex Title"
+msgstr "Regex para el Título"
+
+#: admin/includes/taxonomy-meta/class-cutemi-taxonomy-site-sources-metas.php:52
+msgid ""
+"Regex to extract size from page. <br>Ex: [\\s:]((?:\\d*\\.?\\d+)\\s*(?(?"
+"=[KMGT])(?:[KMGT])(?:i?B)?|B))"
+msgstr ""
+"Regex para extraer el Tamaño desde la página. <br> Ej: [\\s:]((?:\\d*\\.?"
+"\\d+)\\s*(?(?=[KMGT])(?:[KMGT])(?:i?B)?|B))"
+
+#: admin/includes/taxonomy-meta/class-cutemi-taxonomy-site-sources-metas.php:45
+msgid ""
+"Regex to extract title from page. <br>Ex: class=\"title\"[^>]*>\\s*([^<]*)"
+msgstr ""
+"Regex para extraer el título desde la página. <br>Ex: class=\"title\"[^>]*>"
+"\\s*([^<]*)"
+
+#: admin/class-cutemi-settings-credentials.php:168
+msgid "Relaxed file ownership disabled."
+msgstr "Propiedad relajada de archivos deshabilitada."
+
+#: admin/class-cutemi-settings-credentials.php:131
+msgid "Relaxed file ownership enabled."
+msgstr "Propiedad relajada de archivos habilitada."
+
+#: admin/class-cute-mediainfo-settings.php:244
+#| msgid "Remove Data on Uninstall"
+msgid "Remove data on uninstall"
+msgstr "Eliminar datos al desinstalar"
+
+#: includes/cute-mediainfo/class-cutemi-post-type-mediainfo.php:559
+msgid "Remove featured image"
+msgstr "Eliminar imagen destacada"
+
+#: admin/includes/class-cutemi-settings-api.php:448
+msgid "Remove Item"
+msgstr "Eliminar elemento"
+
+#: includes/cute-mediainfo/class-cutemi-post-type-mediainfo.php:508
+msgid "Required an know Source and Extracted ID"
+msgstr "Se requiere una fuente conocida y un ID"
+
+#: admin/class-cutemi-settings-wizards.php:230
+msgid "Rerun the Wizard"
+msgstr "Vuelve a ejecutar el asistente"
+
+#: includes/cute-mediainfo/class-cutemi-post-type-mediainfo.php:195
+msgid "Resolution"
+msgstr "Resolución"
+
+#. translators: digit is the number of row
+#: admin/customizer/class-cutemi-customize-settings.php:147
+msgid "Row %d"
+msgstr "Fila %d"
+
+#: admin/customizer/class-cutemi-customize-settings.php:192
+msgid "Row Border"
+msgstr "Borde de fila"
+
+#: admin/customizer/class-cutemi-customize-settings.php:193
+msgid "Row Border Color"
+msgstr "Color del borde de fila"
+
+#: admin/customizer/class-cutemi-customize-settings.php:194
+msgid "Row Height"
+msgstr "Altura de fila"
+
+#: admin/admin-init.php:99
+msgid "Run wizard"
+msgstr "Correr asistente"
+
+#: includes/cute-mediainfo/taxonomies.php:287
+msgid "Search Audio Bitrate Modes"
+msgstr "Buscar Modos de Tasa de Bits de Audio"
+
+#: includes/cute-mediainfo/taxonomies.php:250
+msgid "Search Audio Bitrates"
+msgstr "Buscar Tasas de Bits de Audio"
+
+#: includes/cute-mediainfo/taxonomies.php:213
+msgid "Search Audio Channels"
+msgstr "Buscar Canales de Audio"
+
+#: includes/cute-mediainfo/taxonomies.php:324
+msgid "Search Audio Languages"
+msgstr "Buscar Idiomas de Audio"
+
+#: includes/cute-mediainfo/taxonomies.php:176
+msgid "Search Audio Techs"
+msgstr "Buscar Tecnologías de Audio"
+
+#: includes/block/build/index.js:1 includes/block/src/edit.js:203
+msgid "Search By Title"
+msgstr "Búsqueda por título"
+
+#: includes/cute-mediainfo/taxonomies.php:28
+msgid "Search Link Sources"
+msgstr "Búsqueda de Fuentes de Enlaces"
+
+#: includes/cute-mediainfo/class-cutemi-post-type-mediainfo.php:554
+msgid "Search MediaInfo Items"
+msgstr "Buscar elemento MediaInfo"
+
+#: includes/cute-mediainfo/taxonomies.php:471
+msgid "Search Text Formats"
+msgstr "Búsqueda de Formatos de Texto"
+
+#: includes/cute-mediainfo/taxonomies.php:435
+msgid "Search Text Languages"
+msgstr "Búsqueda de Idiomas de Texto"
+
+#: includes/cute-mediainfo/taxonomies.php:507
+msgid "Search Text Types"
+msgstr "Búsqueda de Tipos de Texto"
+
+#: includes/cute-mediainfo/taxonomies.php:139
+msgid "Search Video Bitrate Modes"
+msgstr "Búsqueda de Modos de Tasa de Bits de Video"
+
+#: includes/cute-mediainfo/taxonomies.php:102
+msgid "Search Video Bitrates"
+msgstr "Búsqueda de Tasas de Bits de Video"
+
+#: includes/cute-mediainfo/taxonomies.php:361
+msgid "Search Video Formats"
+msgstr "Búsqueda de Formatos de Video"
+
+#: includes/cute-mediainfo/taxonomies.php:65
+msgid "Search Video Resolutions"
+msgstr "Búsqueda de Resoluciones de Video"
+
+#: includes/cute-mediainfo/taxonomies.php:398
+msgid "Search Video Techs"
+msgstr "Búsqueda de Tecnologías de Video"
+
+#: includes/cute-mediainfo/class-cutemi-post-type-mediainfo.php:506
+msgid "Select local video"
+msgstr "Seleccionar video local"
+
+#: includes/block/build/index.js:1 includes/block/src/edit.js:194
+#: includes/block/src/edit.js:198
+msgid "Select MediaInfo"
+msgstr "Seleccionar MediaInfo"
+
+#: admin/includes/class-cutemi-taxonomy-customs-metas.php:359
+msgid "Select or Upload Media"
+msgstr "Seleccionar o Cargar Medios"
+
+#: includes/cute-mediainfo/class-cutemi-post-type-mediainfo.php:505
+msgid "Select the link source"
+msgstr "Seleccione la Fuente de Enlace"
+
+#: includes/cute-mediainfo/class-cutemi-post-type-mediainfo.php:510
+msgid "Select video from media library"
+msgstr "Seleccionar video desde la librería de medios"
+
+#: includes/cute-mediainfo/taxonomies.php:283
+msgid "Separate Audio Bitrate Modes with commas"
+msgstr "Modos de Tasa de Bits de Audio separados con comas"
+
+#: includes/cute-mediainfo/taxonomies.php:246
+msgid "Separate Audio Bitrates with commas"
+msgstr "Separe las Tasas de Bits de Audio con comas"
+
+#: includes/cute-mediainfo/taxonomies.php:209
+msgid "Separate Audio Channels with commas"
+msgstr "Canales de Audio separados con comas"
+
+#: includes/cute-mediainfo/taxonomies.php:320
+msgid "Separate Audio Languages with commas"
+msgstr "Separe los Idiomas de Audio con comas"
+
+#: includes/cute-mediainfo/taxonomies.php:172
+msgid "Separate Audio Techs with commas"
+msgstr "Separe las Tecnologías de Audio con comas"
+
+#: admin/includes/taxonomy-meta/class-cutemi-taxonomy-audio-bitrates-metas.php:18
+msgid ""
+"Separate by comma. Prefix \"(?i)\" for case insensitive, and (?: |-|\\.|) "
+"for space, \"-\", \".\" or nothing. Ex: (?i)320(?: |-|\\.|)kb/s, (?i)320(?: "
+"|-|\\.|)kbps"
+msgstr ""
+"Separe por coma. Usar prefijo \"(?i)\" para insensivilidad a "
+"mayúsculas/minúsculas, y (?: |-|\\.|) para espacio, \"-\", \".\" o nada. Ej: "
+"(?i)320(?: |-|\\.|)kb/s, (?i)320(?: |-|\\.|)kbps"
+
+#: admin/includes/taxonomy-meta/class-cutemi-taxonomy-video-bitrates-metas.php:19
+msgid ""
+"Separate by comma. Prefix \"(?i)\" for case insensitive, and (?: |-|\\.|) "
+"for space, \"-\", \".\" or nothing. Ex: (?i)5(?: |-|\\.|)Mbps, 5(?: |-|\\.|)"
+"Mb/s"
+msgstr ""
+"Separe por coma. Usar prefijo \"(?i)\" para insensivilidad a "
+"mayúsculas/minúsculas, y (?: |-|\\.|) para espacio, \"-\", \".\" o nada. Ej: "
+"(?i)5(?: |-|\\.|)Mbps, 5(?: |-|\\.|)Mb/s"
+
+#: admin/includes/taxonomy-meta/class-cutemi-taxonomy-audio-channels-metas.php:14
+#: admin/includes/taxonomy-meta/class-cutemi-taxonomy-audio-channels-metas.php:27
+msgid ""
+"Separate by comma. Prefix \"(?i)\" for case insensitive, and (?: |-|\\.|) "
+"for space, \"-\", \".\" or nothing. Ex: (?i)DTS(?: |-|\\.|)HD(?: |-|\\.|)MA(?"
+": |-|\\.|)5(?: |-|\\.|)1, (?i)DD5(?: |-|\\.|)1"
+msgstr ""
+"Separe por coma. Usar prefijo \"(?i)\" para insensivilidad a "
+"mayúsculas/minúsculas, y (?: |-|\\.|) para espacio, \"-\", \".\" o nada. Ej: "
+"(?i)DTS(?: |-|\\.|)HD(?: |-|\\.|)MA(?: |-|\\.|)5(?: |-|\\.|)1, (?i)DD5(?: |-"
+"|\\.|)1"
+
+#: admin/includes/taxonomy-meta/class-cutemi-taxonomy-audio-techs-metas.php:19
+msgid ""
+"Separate by comma. Prefix \"(?i)\" for case insensitive, and (?: |-|\\.|) "
+"for space, \"-\", \".\" or nothing. Ex: (?i)DTS(?: |-|\\.|)HD(?: |-|\\.|)MA, "
+"(?i)DTS(?: |-|\\.|)\\+\\+, (?i)DTS(?: |-|\\.|)XLL"
+msgstr ""
+"Separe por coma. Usar prefijo \"(?i)\" para insensivilidad a "
+"mayúsculas/minúsculas, y (?: |-|\\.|) para espacio, \"-\", \".\" o nada. Ej: "
+"(?i)DTS(?: |-|\\.|)HD(?: |-|\\.|)MA, (?i)DTS(?: |-|\\.|)\\+\\+, (?i)DTS(?: |-"
+"|\\.|)XLL"
+
+#: admin/includes/taxonomy-meta/class-cutemi-taxonomy-video-techs-metas.php:19
+msgid ""
+"Separate by comma. Prefix \"(?i)\" for case insensitive, and (?: |-|\\.|) "
+"for space, \"-\", \".\" or nothing. Ex: (?i)x264, (?i)h264, (?i)AVC"
+msgstr ""
+"Separe por coma. Usar prefijo \"(?i)\" para insensivilidad a "
+"mayúsculas/minúsculas, y (?: |-|\\.|) para espacio, \"-\", \".\" o nada. Ej: "
+"(?i)x264, (?i)h264, (?i)AVC"
+
+#: admin/includes/taxonomy-meta/class-cutemi-taxonomy-audio-langs-metas.php:19
+msgid ""
+"Separate by comma. Prefix \"(?i)\" for case insensitive, and (?: |-|\\.|) "
+"for space, \"-\", \".\" or nothing. Ex: FRENCH"
+msgstr ""
+"Separe por coma. Usar prefijo \"(?i)\" para insensivilidad a "
+"mayúsculas/minúsculas, y (?: |-|\\.|) para espacio, \"-\", \".\" o nada. Ej: "
+"FRANCÉS"
+
+#: admin/includes/taxonomy-meta/class-cutemi-taxonomy-text-langs-metas.php:19
+msgid ""
+"Separate by comma. Prefix \"(?i)\" for case insensitive, and (?: |-|\\.|) "
+"for space, \"-\", \".\" or nothing. Ex: SUBFRENCH"
+msgstr ""
+"Separe por coma. Usar prefijo \"(?i)\" para insensivilidad a "
+"mayúsculas/minúsculas, y (?: |-|\\.|) para espacio, \"-\", \".\" o nada. Ej: "
+"SUBFRENCH"
+
+#: admin/includes/taxonomy-meta/class-cutemi-taxonomy-video-formats-metas.php:19
+msgid ""
+"Separate by comma. Prefix \"(?i)\" for case insensitive. Ex: (?i)\\.3gp(\\."
+"rar|\\.zip|\\.7z|)$"
+msgstr ""
+"Separe por coma. Usar prefijo \"(?i)\" para insensivilidad a "
+"mayúsculas/minúsculas. Ej: (?i)\\.3gp(\\.rar|\\.zip|\\.7z|)$"
+
+#: admin/includes/taxonomy-meta/class-cutemi-taxonomy-audio-bitrate-modes-metas.php:18
+msgid "Separate by comma. Prefix \"(?i)\" for case insensitive. Ex: (?i)CBR"
+msgstr ""
+"Separe por coma. Usar prefijo \"(?i)\" para insensivilidad a "
+"mayúsculas/minúsculas. Ej: (?i)CBR"
+
+#: admin/includes/taxonomy-meta/class-cutemi-taxonomy-text-formats-metas.php:19
+#: admin/includes/taxonomy-meta/class-cutemi-taxonomy-text-type-metas.php:19
+msgid "Separate by comma. Prefix \"(?i)\" for case insensitive. Ex: (?i)SSA"
+msgstr ""
+"Separe por coma. Usar prefijo \"(?i)\" para insensivilidad a "
+"mayúsculas/minúsculas. Ej: (?i)SSA"
+
+#: admin/includes/taxonomy-meta/class-cutemi-taxonomy-video-bitrate-modes-metas.php:19
+msgid "Separate by comma. Prefix \"(?i)\" for case insensitive. Ex: (?i)VBR"
+msgstr ""
+"Separe por coma. Usar prefijo \"(?i)\" para insensivilidad a "
+"mayúsculas/minúsculas. Ej: (?i)VBR"
+
+#: admin/includes/taxonomy-meta/class-cutemi-taxonomy-video-resolutions-metas.php:19
+msgid ""
+"Separate by comma. Prefix \"(?i)\" for case insensitive. Ex: HD,(?i)720p,(?i)"
+"High Definition"
+msgstr ""
+"Separe por coma. Usar prefijo \"(?i)\" para insensivilidad a "
+"mayúsculas/minúsculas. Ej: HD,(?i)720p,(?i)High Definition"
+
+#: includes/cute-mediainfo/taxonomies.php:24
+msgid "Separate items with commas"
+msgstr "Separe los elementos con comas"
+
+#: includes/cute-mediainfo/taxonomies.php:467
+msgid "Separate Text Formats with commas"
+msgstr "Formatos de Texto separados con comas"
+
+#: includes/cute-mediainfo/taxonomies.php:431
+msgid "Separate Text Languages with commas"
+msgstr "Separe los idiomas del texto con comas"
+
+#: includes/cute-mediainfo/taxonomies.php:503
+msgid "Separate Text Types with commas"
+msgstr "Separe los tipos de Texto con comas"
+
+#: includes/cute-mediainfo/taxonomies.php:135
+msgid "Separate Video Bitrate Modes with commas"
+msgstr "Modos de Tasa de Bits de Video separados con comas"
+
+#: includes/cute-mediainfo/taxonomies.php:98
+msgid "Separate Video Bitrates with commas"
+msgstr "Separe las Tasas de Bits de Video con comas"
+
+#: includes/cute-mediainfo/taxonomies.php:357
+msgid "Separate Video Formats with commas"
+msgstr "Formatos de Video separados con comas"
+
+#: includes/cute-mediainfo/taxonomies.php:61
+msgid "Separate Video Resolutions with commas"
+msgstr "Separe las Resoluciones de Video con comas"
+
+#: includes/cute-mediainfo/taxonomies.php:394
+msgid "Separate Video Techs with commas"
+msgstr "Separe las Tecnologías de Video con comas"
+
+#: admin/class-cute-mediainfo-settings.php:276
+msgid "Set credentials now"
+msgstr "Establecer credenciales ahora"
+
+#: includes/cute-mediainfo/class-cutemi-post-type-mediainfo.php:558
+msgid "Set featured image"
+msgstr "Establecer imagen destacada"
+
+#: admin/admin-init.php:117
+msgid "Settings"
+msgstr "Ajustes"
+
+#: includes/cute-mediainfo/class-cutemi-post-type-mediainfo.php:454
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: admin/class-cute-mediainfo-settings.php:210
+msgid "Show Always Link Size"
+msgstr "Mostrar siempre el tamaño del enlace"
+
+#. translators: digit is the priority of block, to sort
+#: admin/customizer/class-cutemi-customize-settings.php:133
+msgid "Show Block Info [priority:%d]"
+msgstr "Mostrar información del bloque [prioridad:%d]"
+
+#: admin/class-cute-mediainfo-settings.php:211
+msgid "Show the link size even if it is a single fragment"
+msgstr "Muestra el tamaño del enlace incluso si es un solo fragmento"
+
+#: includes/cute-mediainfo/class-cutemi-post-type-mediainfo.php:164
+msgid "Size"
+msgstr "Tamaño"
+
+#: admin/class-cute-mediainfo-settings.php:359
+msgid "Slug"
+msgstr "Slug"
+
+#: admin/includes/class-cutemi-taxonomy-customs-metas.php:97
+msgid "Small image."
+msgstr "Pequeña imagen."
+
+#: includes/cute-mediainfo/class-cutemi-post-type-mediainfo.php:136
+msgid "Status"
+msgstr "Estado"
+
+#: admin/customizer/class-cutemi-customize-settings.php:297
+msgid "Styles"
+msgstr "Estilos"
+
+#: admin/class-cutemi-settings-credentials.php:200
+msgid "Successfully processed."
+msgstr "Procesado con éxito."
+
+#: includes/functions-settings.php:46
+msgid "Summary"
+msgstr "Resumen"
+
+#: admin/includes/taxonomy-meta/class-cutemi-taxonomy-audio-bitrate-modes-metas.php:15
+#: admin/includes/taxonomy-meta/class-cutemi-taxonomy-audio-bitrates-metas.php:15
+#: admin/includes/taxonomy-meta/class-cutemi-taxonomy-audio-channels-metas.php:11
+#: admin/includes/taxonomy-meta/class-cutemi-taxonomy-audio-channels-metas.php:24
+#: admin/includes/taxonomy-meta/class-cutemi-taxonomy-audio-langs-metas.php:16
+#: admin/includes/taxonomy-meta/class-cutemi-taxonomy-audio-techs-metas.php:16
+#: admin/includes/taxonomy-meta/class-cutemi-taxonomy-text-formats-metas.php:16
+#: admin/includes/taxonomy-meta/class-cutemi-taxonomy-text-langs-metas.php:16
+#: admin/includes/taxonomy-meta/class-cutemi-taxonomy-text-type-metas.php:16
+#: admin/includes/taxonomy-meta/class-cutemi-taxonomy-video-bitrate-modes-metas.php:16
+#: admin/includes/taxonomy-meta/class-cutemi-taxonomy-video-bitrates-metas.php:16
+#: admin/includes/taxonomy-meta/class-cutemi-taxonomy-video-formats-metas.php:16
+#: admin/includes/taxonomy-meta/class-cutemi-taxonomy-video-resolutions-metas.php:16
+#: admin/includes/taxonomy-meta/class-cutemi-taxonomy-video-techs-metas.php:16
+msgid "Tags for the extraction from the video name/mediainfo"
+msgstr "Etiquetas para la extracción desde nombre del video o mediainfo"
+
+#: includes/cute-mediainfo/taxonomies.php:235
+msgctxt "Taxonomy General Name"
+msgid "Audio Bitrate"
+msgstr "Tasa de Bits de Audio"
+
+#: includes/cute-mediainfo/taxonomies.php:272
+msgctxt "Taxonomy General Name"
+msgid "Audio Bitrate Mode"
+msgstr "Modo de Tasa de Bits de Audio"
+
+#: includes/cute-mediainfo/taxonomies.php:198
+msgctxt "Taxonomy General Name"
+msgid "Audio Channel"
+msgstr "Canal de Audio"
+
+#: includes/cute-mediainfo/taxonomies.php:309
+msgctxt "Taxonomy General Name"
+msgid "Audio Language"
+msgstr "Idioma de Audio"
+
+#: includes/cute-mediainfo/taxonomies.php:161
+msgctxt "Taxonomy General Name"
+msgid "Audio Tech"
+msgstr "Tecnología de Audio"
+
+#: includes/cute-mediainfo/taxonomies.php:13
+msgctxt "Taxonomy General Name"
+msgid "Link Source"
+msgstr "Fuente de Enlace"
+
+#: includes/cute-mediainfo/taxonomies.php:456
+msgctxt "Taxonomy General Name"
+msgid "Text Format"
+msgstr "Formato de Texto"
+
+#: includes/cute-mediainfo/taxonomies.php:420
+msgctxt "Taxonomy General Name"
+msgid "Text Language"
+msgstr "Idioma del Texto"
+
+#: includes/cute-mediainfo/taxonomies.php:492
+msgctxt "Taxonomy General Name"
+msgid "Text Type"
+msgstr "Tipo de Texto"
+
+#: includes/cute-mediainfo/taxonomies.php:87
+msgctxt "Taxonomy General Name"
+msgid "Video Bitrate"
+msgstr "Tasa de Bits de Video"
+
+#: includes/cute-mediainfo/taxonomies.php:124
+msgctxt "Taxonomy General Name"
+msgid "Video Bitrate Mode"
+msgstr "Modo de Tasa de Bits de Video"
+
+#: includes/cute-mediainfo/taxonomies.php:346
+msgctxt "Taxonomy General Name"
+msgid "Video Format"
+msgstr "Formato de Video"
+
+#: includes/cute-mediainfo/taxonomies.php:50
+msgctxt "Taxonomy General Name"
+msgid "Video Resolution"
+msgstr "Resolución de Video"
+
+#: includes/cute-mediainfo/taxonomies.php:383
+msgctxt "Taxonomy General Name"
+msgid "Video Tech"
+msgstr "Tecnología de Video"
+
+#: includes/cute-mediainfo/taxonomies.php:236
+msgctxt "Taxonomy Singular Name"
+msgid "Audio Bitrate"
+msgstr "Tasa de Bits de Audio"
+
+#: includes/cute-mediainfo/taxonomies.php:273
+msgctxt "Taxonomy Singular Name"
+msgid "Audio Bitrate Mode"
+msgstr "Modo de Tasa de Bits de Audio"
+
+#: includes/cute-mediainfo/taxonomies.php:199
+msgctxt "Taxonomy Singular Name"
+msgid "Audio Channel"
+msgstr "Canal de Audio"
+
+#: includes/cute-mediainfo/taxonomies.php:310
+msgctxt "Taxonomy Singular Name"
+msgid "Audio Language"
+msgstr "Idioma de Audio"
+
+#: includes/cute-mediainfo/taxonomies.php:162
+msgctxt "Taxonomy Singular Name"
+msgid "Audio Tech"
+msgstr "Tecnología de Audio"
+
+#: includes/cute-mediainfo/taxonomies.php:14
+msgctxt "Taxonomy Singular Name"
+msgid "Link Source"
+msgstr "Fuente de Enlace"
+
+#: includes/cute-mediainfo/taxonomies.php:457
+msgctxt "Taxonomy Singular Name"
+msgid "Text Format"
+msgstr "Formato de Texto"
+
+#: includes/cute-mediainfo/taxonomies.php:421
+msgctxt "Taxonomy Singular Name"
+msgid "Text Language"
+msgstr "Idioma del Texto"
+
+#: includes/cute-mediainfo/taxonomies.php:493
+msgctxt "Taxonomy Singular Name"
+msgid "Text Type"
+msgstr "Tipo de Texto"
+
+#: includes/cute-mediainfo/taxonomies.php:88
+msgctxt "Taxonomy Singular Name"
+msgid "Video Bitrate"
+msgstr "Tasa de Bits de Video"
+
+#: includes/cute-mediainfo/taxonomies.php:125
+msgctxt "Taxonomy Singular Name"
+msgid "Video Bitrate Mode"
+msgstr "Modo de Tasa de Bits de Video"
+
+#: includes/cute-mediainfo/taxonomies.php:347
+msgctxt "Taxonomy Singular Name"
+msgid "Video Format"
+msgstr "Formato de Video"
+
+#: includes/cute-mediainfo/taxonomies.php:51
+msgctxt "Taxonomy Singular Name"
+msgid "Video Resolution"
+msgstr "Resolución de Video"
+
+#: includes/cute-mediainfo/taxonomies.php:384
+msgctxt "Taxonomy Singular Name"
+msgid "Video Tech"
+msgstr "Tecnología de Video"
+
+#: admin/class-cutemi-settings-wizards.php:135
+msgid "Text"
+msgstr "Texto"
+
+#: includes/cute-mediainfo/class-cutemi-post-type-mediainfo.php:321
+#: includes/cute-mediainfo/class-cutemi-post-type-mediainfo.php:323
+msgid "Text Format"
+msgstr "Formato de Texto"
+
+#: includes/cute-mediainfo/taxonomies.php:458
+msgid "Text Formats"
+msgstr "Formatos de Texto"
+
+#: includes/cute-mediainfo/class-cutemi-post-type-mediainfo.php:309
+msgid "Text Language"
+msgstr "Idioma del Texto"
+
+#: includes/cute-mediainfo/class-cutemi-post-type-mediainfo.php:311
+#: includes/cute-mediainfo/taxonomies.php:422
+msgid "Text Languages"
+msgstr "Idiomas del texto"
+
+#: includes/cute-mediainfo/class-cutemi-post-type-mediainfo.php:305
+msgid "Text Tracks"
+msgstr "Pistas de Texto"
+
+#: includes/cute-mediainfo/class-cutemi-post-type-mediainfo.php:333
+#: includes/cute-mediainfo/class-cutemi-post-type-mediainfo.php:335
+msgid "Text Type"
+msgstr "Tipo de Texto"
+
+#: includes/cute-mediainfo/taxonomies.php:494
+msgid "Text Types"
+msgstr "Tipos de Texto"
+
+#: admin/customizer/class-cutemi-customize-settings.php:215
+msgid "Texts Block"
+msgstr "Bloque de Textos"
+
+#: admin/customizer/class-cutemi-customize-settings.php:216
+msgid "Texts Header"
+msgstr "Encabezado de Textos"
+
+#: admin/customizer/class-cutemi-customize-settings.php:217
+msgid "Texts Header Layout"
+msgstr "Disposición de encabezado de Textos"
+
+#: admin/customizer/class-cutemi-customize-settings.php:259
+msgid "Texts: Format Layout"
+msgstr "Textos: Disposición de Formato"
+
+#: admin/customizer/class-cutemi-customize-settings.php:260
+msgid "Texts: Format Order"
+msgstr "Textos: Orden de Formato"
+
+#: admin/customizer/class-cutemi-customize-settings.php:257
+msgid "Texts: Lang Layout"
+msgstr "Textos: Disposición de Idioma"
+
+#: admin/customizer/class-cutemi-customize-settings.php:258
+msgid "Texts: Lang Order"
+msgstr "Textos: Orden de Idioma"
+
+#: admin/customizer/class-cutemi-customize-settings.php:261
+msgid "Texts: Type Layout"
+msgstr "Textos: Disposición de Tipo"
+
+#: admin/customizer/class-cutemi-customize-settings.php:262
+msgid "Texts: Type Order"
+msgstr "Textos: Orden de Tipo"
+
+#: admin/class-cute-mediainfo-settings.php:68
+msgid ""
+"The Cute MediaInfo settings could not be written to the css file. Inline "
+"styles will be used until you configure storage."
+msgstr ""
+"La configuración de Cute MediaInfo no se pudo escribir en el archivo css. "
+"Los estilos en línea se utilizarán hasta que configure el almacenamiento."
+
+#: admin/class-cute-mediainfo-settings.php:252
+msgid "This allows changing the header icon color"
+msgstr "Esto permite cambiar el color del icono del encabezado"
+
+#: admin/class-cute-mediainfo-settings.php:264
+msgid ""
+"This allows to change the library used in the edition of a mediainfo. This "
+"library extracts the information from a video file."
+msgstr ""
+"Esto permite cambiar la biblioteca utilizada en la edición de un mediainfo. "
+"Esta biblioteca extrae la información de un archivo de video."
+
+#: includes/cute-mediainfo/class-cutemi-post-type-mediainfo.php:509
+msgid "This link does not support checking"
+msgstr "Este Enlace no admite verificación"
+
+#: admin/class-cute-mediainfo-settings.php:196
+msgid "This profile is used when a profile is not specified or does not exist"
+msgstr ""
+"Este perfil se utiliza cuando no se especifica un perfil o este no existe"
+
+#. translators: Before a url to visit
+#: admin/class-cutemi-settings-credentials.php:214
+msgid "To configure it persistently check:"
+msgstr "Para configurarlo de forma persistente, compruebe:"
+
+#: admin/customizer/class-cutemi-customize-settings.php:103
+msgid "Top"
+msgstr "Arriba"
+
+#: admin/customizer/class-cutemi-customize-settings.php:122
+msgid "Top Labeled"
+msgstr "Etiquetado Superior"
+
+#: admin/class-cutemi-settings-credentials.php:109
+msgid "Trying to save with credentials..."
+msgstr "Intentando guardar con credenciales..."
+
+#: admin/customizer/class-cutemi-customize-settings.php:170
+msgid "Unit"
+msgstr "Unidad"
+
+#: admin/customizer/class-cutemi-font-dropdown-customize-control.php:151
+#: admin/customizer/class-cutemi-gfont-dropdown-customize-control.php:162
+msgid "Unset"
+msgstr "Sin establecer"
+
+#: includes/cute-mediainfo/taxonomies.php:244
+msgid "Update Audio Bitrate"
+msgstr "Actualizar la Tasa de Bits de Audio"
+
+#: includes/cute-mediainfo/taxonomies.php:281
+msgid "Update Audio Bitrate Mode"
+msgstr "Actualizar el Modo de Tasa de Bits de Audio"
+
+#: includes/cute-mediainfo/taxonomies.php:207
+msgid "Update Audio Channel"
+msgstr "Actualizar Canal de Audio"
+
+#: includes/cute-mediainfo/taxonomies.php:318
+msgid "Update Audio Language"
+msgstr "Actualizar Idioma de Audio"
+
+#: includes/cute-mediainfo/taxonomies.php:170
+msgid "Update Audio Tech"
+msgstr "Actualizar Tecnología de Audio"
+
+#: includes/cute-mediainfo/taxonomies.php:22
+msgid "Update Link Source"
+msgstr "Actualizar Fuente de Enlace"
+
+#: includes/cute-mediainfo/class-cutemi-post-type-mediainfo.php:551
+msgid "Update MediaInfo"
+msgstr "Actualizar MediaInfo"
+
+#: includes/cute-mediainfo/taxonomies.php:465
+msgid "Update Text Format"
+msgstr "Actualizar Formato de Texto"
+
+#: includes/cute-mediainfo/taxonomies.php:429
+msgid "Update Text Language"
+msgstr "Actualizar Idioma de Texto"
+
+#: includes/cute-mediainfo/taxonomies.php:501
+msgid "Update Text Type"
+msgstr "Actualizar Tipo de Texto"
+
+#: includes/cute-mediainfo/taxonomies.php:96
+msgid "Update Video Bitrate"
+msgstr "Actualizar la Tasa de Bits de Video"
+
+#: includes/cute-mediainfo/taxonomies.php:133
+msgid "Update Video Bitrate Mode"
+msgstr "Actualizar el Modo de Tasa de Bits de Video"
+
+#: includes/cute-mediainfo/taxonomies.php:355
+msgid "Update Video Format"
+msgstr "Actualizar Formato de Video"
+
+#: includes/cute-mediainfo/taxonomies.php:59
+msgid "Update Video Resolution"
+msgstr "Actualizar la Resolución de Video"
+
+#: includes/cute-mediainfo/taxonomies.php:392
+msgid "Update Video Tech"
+msgstr "Actualizar Tecnología de Video"
+
+#: includes/cute-mediainfo/class-cutemi-post-type-mediainfo.php:562
+msgid "Uploaded to this MediaInfo"
+msgstr "Subido a este MediaInfo"
+
+#: admin/includes/taxonomy-meta/class-cutemi-taxonomy-site-sources-metas.php:23
+msgid "Url template"
+msgstr "Plantilla de URL"
+
+#: admin/includes/taxonomy-meta/class-cutemi-taxonomy-site-sources-metas.php:35
+msgid "Url template for extract size"
+msgstr "Plantilla de URL para extraer Tamaño"
+
+#: admin/includes/taxonomy-meta/class-cutemi-taxonomy-site-sources-metas.php:29
+msgid "Url template for extract title"
+msgstr "Plantilla de URL para extraer título"
+
+#: includes/cute-mediainfo/class-cutemi-post-type-mediainfo.php:560
+msgid "Use as featured image"
+msgstr "Usar como imagen destacada"
+
+#: admin/class-cute-mediainfo-settings.php:257
+msgid "Use CSS filter"
+msgstr "Usar filtro CSS"
+
+#: admin/class-cute-mediainfo-settings.php:280
+msgid "Use relaxed file ownership "
+msgstr "Utilice la propiedad relajada de archivos"
+
+#: admin/class-cute-mediainfo-settings.php:258
+msgid "Use SVGInject JavaScript library"
+msgstr "Usar la librería JavaScript SVGInject"
+
+#: admin/includes/class-cutemi-taxonomy-customs-metas.php:360
+msgid "Use this media"
+msgstr "Utilice este medio"
+
+#: admin/class-cutemi-settings-wizards.php:125
+msgid "Video"
+msgstr "Video"
+
+#: includes/cute-mediainfo/class-cutemi-post-type-mediainfo.php:215
+#: includes/cute-mediainfo/class-cutemi-post-type-mediainfo.php:217
+msgid "Video Bitrate"
+msgstr "Tasa de Bits de Video"
+
+#: includes/cute-mediainfo/class-cutemi-post-type-mediainfo.php:227
+#: includes/cute-mediainfo/class-cutemi-post-type-mediainfo.php:229
+msgid "Video Bitrate Mode"
+msgstr "Modo de Tasa de Bits de Video"
+
+#: includes/cute-mediainfo/taxonomies.php:126
+msgid "Video Bitrate Modes"
+msgstr "Modos de Tasa de Bits de Video"
+
+#: includes/cute-mediainfo/taxonomies.php:89
+msgid "Video Bitrates"
+msgstr "Tasas de Bits de Video"
+
+#: includes/cute-mediainfo/class-cutemi-post-type-mediainfo.php:151
+msgid "Video Format"
+msgstr "Formato de Video"
+
+#: includes/cute-mediainfo/taxonomies.php:348
+msgid "Video Formats"
+msgstr "Formatos de Video"
+
+#: includes/cute-mediainfo/class-cutemi-post-type-mediainfo.php:147
+msgid "Video General"
+msgstr "Video General"
+
+#: includes/cute-mediainfo/class-cutemi-post-type-mediainfo.php:90
+msgid "Video Link"
+msgstr "Enlace de Video"
+
+#: includes/cute-mediainfo/class-cutemi-post-type-mediainfo.php:193
+msgid "Video Resolution"
+msgstr "Resolución de Video"
+
+#: includes/cute-mediainfo/taxonomies.php:52
+msgid "Video Resolutions"
+msgstr "Resoluciones de Video"
+
+#: includes/cute-mediainfo/class-cutemi-post-type-mediainfo.php:204
+#: includes/cute-mediainfo/class-cutemi-post-type-mediainfo.php:206
+msgid "Video Tech"
+msgstr "Tecnología de Video"
+
+#: includes/cute-mediainfo/taxonomies.php:385
+msgid "Video Techs"
+msgstr "Tecnologías de Video"
+
+#: includes/cute-mediainfo/class-cutemi-post-type-mediainfo.php:189
+msgid "Video Tracks"
+msgstr "Pistas de Video"
+
+#: admin/customizer/class-cutemi-customize-settings.php:209
+msgid "Videos Block"
+msgstr "Bloque de Videos"
+
+#: admin/customizer/class-cutemi-customize-settings.php:210
+msgid "Videos Header"
+msgstr "Encabezado de Videos"
+
+#: admin/customizer/class-cutemi-customize-settings.php:211
+msgid "Videos Header Layout"
+msgstr "Disposición de encabezado de Videos"
+
+#: admin/customizer/class-cutemi-customize-settings.php:243
+msgid "Videos: Bitrate Layout"
+msgstr "Videos: Disposición de Tasa de Bits"
+
+#: admin/customizer/class-cutemi-customize-settings.php:245
+msgid "Videos: Bitrate Mode Layout"
+msgstr "Videos: Disposición del Modo de Tasa de Bits"
+
+#: admin/customizer/class-cutemi-customize-settings.php:246
+msgid "Videos: Bitrate Mode Order"
+msgstr "Videos: Orden de Modo de Tasa de Bits"
+
+#: admin/customizer/class-cutemi-customize-settings.php:244
+msgid "Videos: Bitrate Order"
+msgstr "Videos: Orden de la Tasa de Bits"
+
+#: admin/customizer/class-cutemi-customize-settings.php:239
+msgid "Videos: Resolution Layout"
+msgstr "Videos: Disposición de Resolución"
+
+#: admin/customizer/class-cutemi-customize-settings.php:240
+msgid "Videos: Resolution Order"
+msgstr "Videos: Orden de Resolución"
+
+#: admin/customizer/class-cutemi-customize-settings.php:241
+msgid "Videos: Tech Layout"
+msgstr "Videos: Disposición de Tecnología"
+
+#: admin/customizer/class-cutemi-customize-settings.php:242
+msgid "Videos: Tech Order"
+msgstr "Videos: Orden de Tecnología"
+
+#: includes/cute-mediainfo/taxonomies.php:245
+msgid "View Audio Bitrate"
+msgstr "Ver Tasa de Bits de Audio"
+
+#: includes/cute-mediainfo/taxonomies.php:282
+msgid "View Audio Bitrate Mode"
+msgstr "Ver el Modo de Tasa de Bits de Audio"
+
+#: includes/cute-mediainfo/taxonomies.php:208
+msgid "View Audio Channel"
+msgstr "Ver Canal de Audio"
+
+#: includes/cute-mediainfo/taxonomies.php:319
+msgid "View Audio Language"
+msgstr "Ver Idioma de Audio"
+
+#: includes/cute-mediainfo/taxonomies.php:171
+msgid "View Audio Tech"
+msgstr "Ver Tecnología de Audio"
+
+#: includes/cute-mediainfo/taxonomies.php:23
+msgid "View Link Source"
+msgstr "Ver Fuente de Enlace"
+
+#: includes/cute-mediainfo/class-cutemi-post-type-mediainfo.php:552
+msgid "View MediaInfo"
+msgstr "Ver MediaInfo"
+
+#: includes/cute-mediainfo/class-cutemi-post-type-mediainfo.php:553
+msgid "View MediaInfo Items"
+msgstr "Ver elementos MediaInfo"
+
+#: includes/cute-mediainfo/taxonomies.php:466
+msgid "View Text Format"
+msgstr "Ver Formato de Texto"
+
+#: includes/cute-mediainfo/taxonomies.php:430
+msgid "View Text Language"
+msgstr "Ver Idioma del Texto"
+
+#: includes/cute-mediainfo/taxonomies.php:502
+msgid "View Text Type"
+msgstr "Ver Tipo de Texto"
+
+#: includes/cute-mediainfo/taxonomies.php:97
+msgid "View Video Bitrate"
+msgstr "Ver la Tasa de Bits de Video"
+
+#: includes/cute-mediainfo/taxonomies.php:134
+msgid "View Video Bitrate Mode"
+msgstr "Ver Modo de Tasa de Bits de Video"
+
+#: includes/cute-mediainfo/taxonomies.php:356
+msgid "View Video Format"
+msgstr "Ver Formato de Video"
+
+#: includes/cute-mediainfo/taxonomies.php:60
+msgid "View Video Resolution"
+msgstr "Ver Resolución de Video"
+
+#: includes/cute-mediainfo/taxonomies.php:393
+msgid "View Video Tech"
+msgstr "Ver Tecnología de Video"
+
+#: admin/admin-init.php:94
+msgid ""
+"Welcome to Cute MediaInfo! You're almost there, but we recommended this "
+"wizard to setup the plugin."
+msgstr ""
+"¡Bienvenido a Cute MediaInfo! Ya casi ha terminado, pero le recomendamos "
+"este asistente para configurar el complemento."
+
+#. translators: string is the group name, ex: general,videos,audios,etc
+#: admin/customizer/class-cutemi-customize-settings.php:721
+msgid "Where title for \"%s\" block are show"
+msgstr "Donde se muestra el título del bloque \"%s\""
+
+#: admin/customizer/class-cutemi-customize-settings.php:106
+msgid "Without Header"
+msgstr "Sin encabezado"
+
+#: admin/class-cute-mediainfo-settings.php:135
+msgid "Wizard"
+msgstr "Asistente"
+
+#: admin/class-cutemi-settings-wizards.php:223
+msgid "Wizard already finished!"
+msgstr "Asistente ya terminado"
+
+#: includes/class-cutemi-storage.php:44
+msgid "WP_Filesystem require credentials."
+msgstr "WP_Filesystem requiere credenciales."
+
+#: includes/class-cutemi-storage.php:57
+msgid "WP_Filesystem unknown error."
+msgstr "WP_Filesystem error desconocido."
+
+#: includes/class-cutemi-template-styles.php:368
+msgid "Writing Error. The new styles cannot be written."
+msgstr "Error de escritura. Los nuevos estilos no se pueden escribir."

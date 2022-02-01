@@ -1,0 +1,315 @@
+.cutemi-hidden {
+	display: none;
+}
+
+.cutemi-icon-preview {
+	height: 50px;
+	display: inline;
+}
+
+.cutemi-icons-preview {
+	padding-left: 50px;
+	display: inline-block;
+	min-width: 225px;
+}
+
+.tauri-array-item label {
+	min-width: 150px;
+	display: inline-block;
+	margin-bottom: 5px;
+}
+
+.tauri-array-item .description {
+	margin-left: 150px;
+}
+
+.tauri-array-item input {
+	display: inline-block;
+	margin-bottom: 5px;
+}
+
+.button.tauri-array-item-remove {
+	vertical-align: middle;
+	margin-left: 1em;
+}
+
+.tauri-array-item-remove .dashicons-before,
+.tauri-array-item-remove .dashicons-before:before {
+	vertical-align: middle;
+	margin-right: 0.3em;
+}
+
+.tauri-sort-handle {
+	vertical-align: middle;
+	width: 1.2em;
+	background: #fff;
+	padding: 5px;
+	border: solid 1px #a9a6a6;
+	border-radius: 3px;
+	float: right;
+}
+
+[readonly] {
+	pointer-events: none;
+}
+
+.cutemi-profile-edit {
+	width: 80%;
+	text-align: center;
+	margin: 1em 10%;
+}
+
+
+.cutemi-steps-4 .cutemi-setup-step {
+	width: 23%;
+	margin: 1%;
+}
+
+.cutemi-setup-step {
+	background: #087095;
+	color: #F0F0F0;
+	padding: 1em;
+	text-decoration: none;
+	border-radius: 0.3em;
+	text-align: center;
+	font-size: 1.2em;
+	display: inline-block;
+	box-sizing: border-box;
+	min-width: 150px;
+}
+
+.cutemi-setup-step:hover,
+.cutemi-setup-step:focus {
+	background: #177A9A;
+	color: #FFF;
+}
+
+.cutemi-setup-step.cutemi-actual-step {
+	background: #1DB0E8;
+	color: #FFF;
+}
+
+.cutemi-setup-step b {
+	float: left;
+	font-size: 2em;
+	opacity: 0.5;
+}
+
+.cutemi-setup-form {
+	position: relative;
+}
+
+.cutemi-setup-form.cutemi-loading:after {
+	background-color: rgba(0, 0, 0, 0);
+	transition: background-color 600ms linear;
+}
+
+.cutemi-setup-form.cutemi-loading:after {
+	position: absolute;
+	display: block;
+	bottom: 0;
+	top: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0, 0, 0, 0.45);
+	box-shadow: 0 0 2px 4px rgba(0, 0, 0, 0.45);
+	content: ' ';
+}
+
+.cutemi-setup-form .submit {
+	transition: opacity 0.6s;
+	opacity: 1;
+}
+
+.cutemi-setup-form.cutemi-loading .submit {
+	opacity: 0.3;
+}
+
+.cutemi-ready-title {
+	text-align: center;
+	font-size: 4em;
+}
+
+.cutemi-ready-rerun {
+	text-align: center;
+}
+
+.cutemi-ready-rerun a,
+.cutemi-ready-text {
+	text-align: center;
+	font-size: 22px;
+}
+
+.cutemi-setup-steps-desc p {
+	font-size: 16px;
+}
+
+.cutemi-setup-tax-list {
+	width: 300px;
+	display: inline-block;
+	vertical-align: top;
+	margin: 10px;
+	border: solid 1px #99BCF1;
+	border-top-left-radius: 0.5em;
+	border-top-right-radius: 0.5em;
+	overflow: hidden;
+}
+
+.cutemi-setup-tax-list * {
+	box-sizing: border-box;
+}
+
+.cutemi-setup-select-all {
+	float: right;
+	text-decoration: none;
+}
+
+.cutemi-setup-tax-list h2 {
+	background: #CDE1FF;
+	margin: 0;
+	padding: 1em 0.4em 0.5em 0.6em;
+	overflow: hidden;
+	font-size: 1.2em;
+}
+
+.cutemi-setup-tax-list ul {
+	list-style-type: none;
+	margin: 0;
+	height: 300px;
+	overflow: auto;
+	background: rgba(0, 0, 0, 0.1);
+	padding: 1em;
+}
+
+.cutemi-setup-tax-list ul.children {
+	height: auto;
+	padding: 0 0 0 2em;
+}
+
+.cutemi-setup-check {
+	width: 30px;
+	display: inline-block;
+	vertical-align: top;
+	padding: 1em 5px;
+}
+
+.cutemi-setup-check label {
+	white-space: nowrap;
+}
+
+.cutemi-setup-check-img {
+	padding: 5px;
+	display: inline-block;
+	vertical-align: top;
+	width: 50px;
+}
+
+.cutemi-setup-check-img img {
+	max-width: 100%;
+}
+
+.cutemi-setup-check-info {
+	padding: 5px;
+	display: inline-block;
+	vertical-align: top;
+	width: calc(100% - 85px);
+}
+
+.cutemi-setup-check-info b,
+.cutemi-setup-check-info i {
+	width: 100%;
+	display: block;
+}
+
+#cutemi_setup .submit {
+	text-align: center;
+}
+
+#cutemi_setup .submit input {
+	font-size: 22px;
+	min-width: 200px;
+}
+
+@media (min-width: 500px) {
+	.cutemi-setup-tax-list {
+		min-width: 45%;
+	}
+}
+
+@media (min-width: 800px) {
+	.cutemi-setup-tax-list {
+		min-width: 31%;
+	}
+}
+
+@media (min-width: 1100px) {
+	.cutemi-setup-tax-list {
+		min-width: 23%;
+	}
+}
+
+@media (min-width: 1400px) {
+	.cutemi-setup-tax-list {
+		min-width: 19%;
+	}
+}
+
+@media (min-width: 1700px) {
+	.cutemi-setup-tax-list {
+		min-width: 16%;
+	}
+}
+
+
+.cutemi-menu-nav {
+	position: relative;
+	overflow: visible;
+	display: inline-block;
+}
+
+.cutemi-three-dots:after {
+	cursor: pointer;
+	color: #444;
+	content: '\2807';
+}
+
+.cutemi-dropdown > a {
+	display: block;
+	text-decoration: none;
+	color: #000;
+	padding: 0.3em 0.6em;
+	max-width: 100%;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+
+.cutemi-dropdown > a:hover {
+	background-color: #FFF;
+}
+
+.cutemi-dropdown {
+	position: absolute;
+	top: 40px;
+	right: 0;
+	background-color: #F2F2FC;
+	box-shadow: -2px 2px 6px #A2A2A2;
+	max-width: 300px;
+	display: inline-block;
+	outline: none;
+	opacity: 0;
+	z-index: -1;
+	max-height: 0;
+	transition: opacity 0.1s, z-index 0.1s, max-height 5s;
+}
+
+.cutemi-dropdown-container:focus {
+	outline: none;
+}
+
+.cutemi-dropdown-container.cutemi-open .cutemi-dropdown {
+	opacity: 1;
+	z-index: 100;
+	max-height: 100vh;
+	transition: opacity 0.2s, z-index 0.2s, max-height 0.2s;
+}
