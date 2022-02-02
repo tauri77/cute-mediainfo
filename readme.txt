@@ -26,8 +26,19 @@ Customizable plugin to display MediaInfo for humans.
 
 ### Documentation
 
-Documentation online on https://cutemi-docs.galetto.info/
+Documentation online on [cutemi-docs.galetto.info](https://cutemi-docs.galetto.info/)
 
+== Screenshots ==
+
+1. Cute MediaInfo Block
+2. Cute MediaInfo Block Preview
+3. Editing a MediaInfo 1
+4. Editing a MediaInfo 2
+5. MediaInfo List
+6. General Settings
+7. Advanced Settings
+8. Profiles
+9. Wizard
 
 == Frequently Asked Questions ==
 
@@ -37,6 +48,7 @@ Profiles determine the way information is displayed.
 The same mediainfo can be shown with different profiles in different places.
 For example, with profile "summary" in a widget, and with profile "full" in a post.
 Each profile has different styles, layouts and data to show.
+
 * Styles: Determine the colors, dimensions and fonts.
 * Layouts: Determines if a block/group of information is displayed, how it is displayed and where. Examples of blocks are "Videos", "Audios", "Links".
 * Data to show: Determine what information and where to show it. For example, whether or not to show the bitrate, and if it is shown, to show in text, icon or both. And then show it before or after bitrate mode, etc.
@@ -52,12 +64,12 @@ You can use this repository as a base: [CuteMI Template PHP Example](https://git
 
 == Changelog ==
 
-= 1.1 =
+= 1.0.1 =
 * Code Cleanup
 * Removed the option to export/import profiles for security reasons
 * file_put_content was replaced by WP_Filesystem
 * Added some validations and variable escaping
 * curl was replaced by WP_Http
 
-= 1.0 =
+= 1.0.0 =
 * First version of the plugin
