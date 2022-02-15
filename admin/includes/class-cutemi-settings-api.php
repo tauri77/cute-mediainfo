@@ -96,7 +96,7 @@ if ( ! class_exists( 'CUTEMI_Settings_API' ) ) :
 					'cutemi-jquery-ui',
 					$plugin_dir_url . 'admin/assets/jquery-ui/jquery-ui.css',
 					false,
-					'1.0.1',
+					'1.0.2',
 					false
 				);
 			}
@@ -105,7 +105,7 @@ if ( ! class_exists( 'CUTEMI_Settings_API' ) ) :
 				'cutemi-settings-css',
 				$plugin_dir_url . 'admin/assets/css/settings.css',
 				false,
-				'1.0.1',
+				'1.0.2',
 				false
 			);
 
@@ -115,7 +115,7 @@ if ( ! class_exists( 'CUTEMI_Settings_API' ) ) :
 				'cutemi-settings.js',
 				$plugin_dir_url . 'admin/assets/js/settings.js',
 				array( 'jquery' ),
-				'1.0.1',
+				'1.0.2',
 				false
 			);
 

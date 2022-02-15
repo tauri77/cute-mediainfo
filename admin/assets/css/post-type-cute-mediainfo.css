@@ -616,8 +616,8 @@
 	display: none !important;
 }
 
-.cutemi-field.cutemi-field-line label.cutemi-btn, /*override label for file input hack*/
-.cutemi-btn {
+.cutemi-field.cutemi-field-line label.cutemi-adm-btn, /*override label for file input hack*/
+.cutemi-adm-btn {
 	padding: 0.5em 1em;
 	display: inline-block;
 	cursor: pointer;
@@ -631,7 +631,7 @@
 	vertical-align: middle;
 }
 
-.cutemi-btn:hover {
+.cutemi-adm-btn:hover {
 	border: 1px solid #39C0F3;
 	background: #D1EBFF;
 }

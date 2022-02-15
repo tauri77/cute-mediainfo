@@ -213,7 +213,7 @@ if ( ! function_exists( 'cutemi_template_table_style_customized' ) ) {
 	white-space: nowrap;
     width: 100%;
 }
-.cutemi-template .cutemi-inline-flex {
+.cutemi-template li.cutemi-inline-flex {
 	padding-left: 0.25em;
     padding-right: 0.25em;
     display: flex;
@@ -223,11 +223,11 @@ if ( ! function_exists( 'cutemi_template_table_style_customized' ) ) {
     align-content: center;
     flex-wrap: wrap;
 }
-.cutemi-template .cutemi-inline-flex img,
-.cutemi-template .cutemi-inline-flex svg {
+.cutemi-template li.cutemi-inline-flex img,
+.cutemi-template li.cutemi-inline-flex svg {
 	margin: 0;
 }
-.cutemi-template .cutemi-inline-flex span {
+.cutemi-template li.cutemi-inline-flex span {
 	width: auto;
 	margin: 0.1em 0.5em;
 }
@@ -790,6 +790,7 @@ li.cutemi-inline-img-txt.cutemi-cell.cutemi-cell-source svg {
     color: ' . $safe_cfg['blocks_headers_font_color'] . ';
     fill: ' . $safe_cfg['blocks_headers_font_color'] . ';
 }
+' . $class_profile . ' .cutemi-group-head .cutemi-img-txt img,
 ' . $class_profile . ' .cutemi-group-head .cutemi-img-txt svg {
     max-height: ' . max( $min_dim, ( $safe_cfg['row_height'] - $safe_cfg['cell_padding'] * 2 ) ) . $safe_cfg['unit'] . ';
 }
@@ -977,13 +978,27 @@ li.cutemi-inline-img-txt.cutemi-cell.cutemi-cell-source svg {
 	' . $class_profile . ' .cutemi-group-cols-3 .cutemi-inline-flex span {
         font-size: ' . $safe_cfg['font_size'] . $safe_cfg['unit'] . ';
 	}
+	' . $class_profile . ' .cutemi-group-cols-1 .cutemi-cell.cutemi-img-txt.cutemi-inline-flex img,
+	' . $class_profile . ' .cutemi-group-cols-2 .cutemi-cell.cutemi-img-txt.cutemi-inline-flex img,
+	' . $class_profile . ' .cutemi-group-cols-3 .cutemi-cell.cutemi-img-txt.cutemi-inline-flex img {
+		max-height: ' . max( $min_dim, ( $safe_cfg['row_height'] - $safe_cfg['font_size'] - $safe_cfg['cell_padding'] * 2 ) ) . $safe_cfg['unit'] . ';
+		height: auto;
+	}
 }
 @media (min-width:850px) {
 	' . $class_profile . ' .cutemi-inline-flex span {
         font-size: ' . $safe_cfg['font_size'] . $safe_cfg['unit'] . ';
 	}
-}';
+	' . $class_profile . ' .cutemi-group-cols-1 .cutemi-cell.cutemi-img-txt.cutemi-inline-flex img,
+	' . $class_profile . ' .cutemi-group-cols-2 .cutemi-cell.cutemi-img-txt.cutemi-inline-flex img,
+	' . $class_profile . ' .cutemi-group-cols-3 .cutemi-cell.cutemi-img-txt.cutemi-inline-flex img,
+	' . $class_profile . ' .cutemi-group-cols-4 .cutemi-cell.cutemi-img-txt.cutemi-inline-flex img {
+		max-height: ' . max( $min_dim, ( $safe_cfg['row_height'] - $safe_cfg['font_size'] - $safe_cfg['cell_padding'] * 2 ) ) . $safe_cfg['unit'] . ';
+		height: auto;
+	}
+}
+';
 
-		return apply_filters( 'cutemi_table_customize_style', $out, $class_profile, $safe_cfg );
+		return apply_filters( 'cutemi_table_customize_style', $out, $class_profile, $style_cfg, $safe_cfg );
 	}
 }

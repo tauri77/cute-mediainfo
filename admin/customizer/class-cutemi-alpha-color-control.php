@@ -31,14 +31,14 @@ class CUTEMI_Alpha_Color_Control extends WP_Customize_Control {
 			'cutemi-alpha-color-picker',
 			plugins_url( 'assets/alpha-color-picker.js', __FILE__ ),
 			array( 'jquery', 'wp-color-picker' ),
-			'1.0.1',
+			'1.0.2',
 			true
 		);
 		wp_enqueue_style(
 			'cutemi-alpha-color-picker',
 			plugins_url( 'assets/alpha-color-picker.css', __FILE__ ),
 			array( 'wp-color-picker' ),
-			'1.0.1'
+			'1.0.2'
 		);
 	}
 

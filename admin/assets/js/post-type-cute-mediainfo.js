@@ -657,7 +657,7 @@
 			if ( typeof Promise !== 'undefined' ) {
 				var $localLabel = jQuery( '<label>' )
 					.html( cutemiData.select_local_video )
-					.addClass( 'cutemi-btn' )
+					.addClass( 'cutemi-adm-btn' )
 					.attr( 'for', 'cutemi-mediainfo-file' );
 
 				var $localInput = jQuery( '<input type="file">' )
@@ -676,12 +676,12 @@
 			}
 
 			var $extractBtn = jQuery( '<a href="#"> </a>' )
-				.addClass( 'cutemi-btn' ).hide()
+				.addClass( 'cutemi-adm-btn' ).hide()
 				.html( cutemiData.load_data_from_mediainfo )
 				.on( 'click', extractFromMediaInfo );
 
 			var $mediaBtn = jQuery( '<a href="#"> </a>' )
-				.addClass( 'cutemi-btn' )
+				.addClass( 'cutemi-adm-btn' )
 				.html( cutemiData.select_from_media_library )
 				.on( 'click', mediaInfoFromWP );
 			$d1.append( $mediaBtn );

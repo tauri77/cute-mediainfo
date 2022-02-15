@@ -24,6 +24,21 @@ Customizable plugin to display MediaInfo for humans.
 * Two icon packs (extensible)
 * Use as block or shortcode
 
+Supported Links: 1fichier, Amazon, Amazon UE, box, Clicknupload, DailyUploads, ddownload, Dropapk, Dropbox, Fast Down, FastClick, FileFactory, GDrive, HexUpload, Jottacloud, KatFile, Mediafire, MEGA, MEGA Folder, NitroFlare, OneDrive, pCloud, pCloud(Euro), Rapidgator, Uploaded, UploadGIG, Uptobox, Usersdrive.
+
+### Extra features with PRO Addon
+
+Did you know that [PRO Addon](https://galetto.info/product/cute-mediainfo-pro/) contains a lot of extra features:
+
+* **Screenshots with** thumbnails and full-size viewer
+* **Link checker** for offline status
+* **Link protection** with reCaptcha
+* **Link override** ( usage example: protected or shortened link )
+* **Extra icon pack**: Flat Color
+* **Export/Import** profiles
+* **Source Quality** field (DVDRip, BRRip, etc)
+
+
 ### Documentation
 
 Documentation online on [cutemi-docs.galetto.info](https://cutemi-docs.galetto.info/)
@@ -63,6 +78,13 @@ Yes, you can, although customization options will not be available.
 You can use this repository as a base: [CuteMI Template PHP Example](https://github.com/tauri77/CuteMI-Template-PHP-Example)
 
 == Changelog ==
+
+= 1.0.2 =
+* call unregister_post_type on deactivate before flush_rewrite_rules
+* fix some css
+* fix arguments on hook cutemi_table_customize_style
+* fix meta term with type select (always show default)
+* fix VP8 svg
 
 = 1.0.1 =
 * Code Cleanup

@@ -365,7 +365,7 @@ class CUTEMI_Taxonomy_Customs_Metas {
 				'cutemi_tax_term.css',
 				$plugin_dir_url . 'admin/assets/css/tax-term.css',
 				false,
-				'1.0.1'
+				'1.0.2'
 			);
 			wp_enqueue_style( 'cutemi_tax_term.css' );
 		}
@@ -408,7 +408,6 @@ class CUTEMI_Taxonomy_Customs_Metas {
 				$this->field_checkbox_multi( $meta_field, $meta_value );
 				break;
 			case 'select':
-				$meta_value = $meta_field['default'];
 				$this->field_select( $meta_field, $meta_value );
 				break;
 			case 'textarea':
@@ -541,7 +540,7 @@ class CUTEMI_Taxonomy_Customs_Metas {
 						break;
 					case 'select':
 						// Check valid option
-						if ( in_array( $raw_value, array_keys( $meta_field['options'] ), true ) ) {
+						if ( array_key_exists( $raw_value, $meta_field['options'] ) ) {
 							$sanitized_value = $raw_value;
 						}
 						break;

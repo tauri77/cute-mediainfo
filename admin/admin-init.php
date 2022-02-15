@@ -47,6 +47,9 @@ function cute_mediainfo_deactivate() {
 	if ( ! current_user_can( 'activate_plugins' ) ) {
 		return;
 	}
+	// Unregister the post type, so the rules are no longer in memory.
+	unregister_post_type( 'cute_mediainfo' );
+	// Clear the permalinks to remove our post type rules from the database.
 	flush_rewrite_rules();
 }
 

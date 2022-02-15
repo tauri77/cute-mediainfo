@@ -491,7 +491,7 @@ class CUTEMI_Post_Type_Mediainfo extends CUTEMI_Custom_Post_Type {
 					'cutemi-post-type-cute-mediainfo.js',
 					$plugin_dir_url . 'admin/assets/js/post-type-cute-mediainfo.js',
 					array( 'jquery' ),
-					'1.0.1',
+					'1.0.2',
 					true
 				);
 				/** @noinspection SqlResolve */
@@ -521,7 +521,7 @@ class CUTEMI_Post_Type_Mediainfo extends CUTEMI_Custom_Post_Type {
 					'post-type-cute-mediainfo.css',
 					$plugin_dir_url . 'admin/assets/css/post-type-cute-mediainfo.css',
 					array(),
-					'1.0.1',
+					'1.0.2',
 					'all'
 				);
 				wp_enqueue_style( 'post-type-cute-mediainfo.css' );

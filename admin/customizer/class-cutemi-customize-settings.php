@@ -160,7 +160,7 @@ class CUTEMI_Customize_Settings {
 			'cutemi-customizer',
 			plugins_url( 'assets/customizer.js', __FILE__ ),
 			array(),
-			'1.0.1',
+			'1.0.2',
 			true
 		);
 	}

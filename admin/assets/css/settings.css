@@ -313,3 +313,7 @@
 	max-height: 100vh;
 	transition: opacity 0.2s, z-index 0.2s, max-height 0.2s;
 }
+
+.settings_page_settings_cute_mediainfo .wrap .notice {
+	margin: 10px 0 3px !important;
+}
