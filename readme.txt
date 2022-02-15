@@ -5,7 +5,7 @@ License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl.txt
 Tags: Video Info, MediaInfo, Video Links
 Tested up to: 5.9
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 Requires PHP: 5.6
 
 Customizable plugin to display MediaInfo for humans.
