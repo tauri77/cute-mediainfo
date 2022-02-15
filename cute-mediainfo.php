@@ -5,7 +5,7 @@
  * Description: Mediainfo for humans. Cute way to display video file information.
  * Version:     1.0.2
  * Author:      Mauricio Galetto
- * Author URI:  https://geletto.info
+ * Author URI:  https://galetto.info
  * Domain Path: /languages
  * Text Domain: cute-mediainfo
  * License:     GPL v3
