@@ -300,11 +300,14 @@ function cutemi_get_table_cell( $mediainfo, $group, $post, $field, $idx = - 1 ) 
 				! isset( $mediainfo[ $group['id'] ][ $idx ] ) ||
 				! isset( $mediainfo[ $group['id'] ][ $idx ][ $field['id'] ] )
 		) {
-			return '';
+			return apply_filters( 'cutemi_table_cell_data', '', $mediainfo, $group, $post, $field, $idx );
 		}
 		$val = $mediainfo[ $group['id'] ][ $idx ][ $field['id'] ];
 	} else {
 		//Unique
+		if (!isset($mediainfo[ $field['id'] ])){
+			return apply_filters( 'cutemi_table_cell_data', '', $mediainfo, $group, $post, $field, $idx );
+		}
 		$val = $mediainfo[ $field['id'] ];
 	}
 

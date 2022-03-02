@@ -29,14 +29,47 @@ function cutemi_register_block() {
 add_action( 'init', 'cutemi_register_block' );
 
 function cutemi_render_wp_block( $attributes ) {
+	$pre = '';
 	if ( empty( $attributes['id'] ) ) {
-		return cutemi_render_block_preview(
+		return $pre . cutemi_render_block_preview(
 			isset( $attributes['profile'] ) ? $attributes['profile'] : cutemi_get_default_profile()
 		);
 	}
+	if ( defined( 'REST_REQUEST' ) ) {
+		$edit_link = get_edit_post_link( (int) $attributes['id'], 'api' );
+		if ( $edit_link ) {
+			$pre = '<a href="' . esc_url( $edit_link ) . '" title="' .
+						esc_attr__( 'Edit Mediainfo', 'cute-mediainfo' ) .
+						'" class="button cutemi-preview-edit-link" target="_blank">' .
+						'<svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" ' .
+						'aria-hidden="true" focusable="false">' .
+						'<path d="M20.1 5.1L16.9 2 6.2 12.7l-1.3 4.4 4.5-1.3L20.1 5.1zM4 20.8h8v-1.5H4v1.5z"></path></svg>' .
+						'</a>';
+		}
+	}
 
-	return cutemi_get_post_content( (int) $attributes['id'], $attributes['profile'] );
+	return $pre . cutemi_get_post_content( (int) $attributes['id'], $attributes['profile'] );
 }
+
+
+add_action(
+	'rest_api_init',
+	function () {
+		register_rest_field(
+			'cute_mediainfo',
+			'edit_link',
+			array(
+				'get_callback' => function( $arr ) {
+					return get_edit_post_link( $arr['id'], 'api' );
+				},
+				'schema'       => array(
+					'description' => __( 'Edit url', 'cute-mediainfo' ),
+					'type'        => 'string',
+				),
+			)
+		);
+	}
+);
 
 
 function cutemi_render_block_preview( $profile ) {

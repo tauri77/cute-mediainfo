@@ -365,7 +365,7 @@ class CUTEMI_Taxonomy_Customs_Metas {
 				'cutemi_tax_term.css',
 				$plugin_dir_url . 'admin/assets/css/tax-term.css',
 				false,
-				'1.0.2'
+				'1.0.3'
 			);
 			wp_enqueue_style( 'cutemi_tax_term.css' );
 		}

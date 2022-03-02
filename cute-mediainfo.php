@@ -3,7 +3,7 @@
  * Plugin Name: Cute MediaInfo
  * Plugin URI:  https://galetto.info/cutemi-file-info-and-links/
  * Description: Mediainfo for humans. Cute way to display video file information.
- * Version:     1.0.2
+ * Version:     1.0.3
  * Author:      Mauricio Galetto
  * Author URI:  https://galetto.info
  * Domain Path: /languages
@@ -150,7 +150,7 @@ function cutemi_enqueue_scripts_do() {
 			'svg-inject.min.js',
 			plugin_dir_url( CUTE_MEDIAINFO_FILE ) . 'assets/js/svg-inject.min.js',
 			array( 'jquery' ),
-			'1.0.2',
+			'1.0.3',
 			false
 		);
 	}

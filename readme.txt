@@ -5,7 +5,7 @@ License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl.txt
 Tags: Video Info, MediaInfo, Video Links
 Tested up to: 5.9
-Stable tag: 1.0.2
+Stable tag: 1.0.3
 Requires PHP: 5.6
 
 Customizable plugin to display MediaInfo for humans.
@@ -78,6 +78,10 @@ Yes, you can, although customization options will not be available.
 You can use this repository as a base: [CuteMI Template PHP Example](https://github.com/tauri77/CuteMI-Template-PHP-Example)
 
 == Changelog ==
+
+= 1.0.3 =
+* fix some UI issues
+* add edit link on block toolbar
 
 = 1.0.2 =
 * call unregister_post_type on deactivate before flush_rewrite_rules

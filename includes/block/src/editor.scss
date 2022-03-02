@@ -14,18 +14,15 @@
   min-height: 2.5em !important; /*Fix WP select */
 }
 
-.cutemi-vertical-radio-label {
-  width: 100%;
+.cutemi-input-search-result {
+  border-bottom: 1px solid #ccc;
   display: block;
-  padding: 1em;
-  border-bottom: solid 1px #ccc;
   max-width: 80vw;
   overflow: hidden;
   text-overflow: ellipsis;
-}
-.cutemi-vertical-radio-label input{
-  visibility: hidden;
-  width: 1em;
+  width: 100%;
+  text-align: left;
+  padding-left: 1em;
 }
 
 .cutemi-modal-search {
@@ -79,6 +76,7 @@
 
 .cutemi-block-edit > div{
   width: 35%;
+  min-width: 90px;
   display: inline-block;
   margin: 1%;
   vertical-align: bottom;
@@ -101,4 +99,26 @@
 .cutemi-block-edit .components-button{
   overflow: hidden;
   min-width: 121px;
+}
+
+
+.button.cutemi-preview-edit-link {
+  display: block;
+  position: relative;
+  float: right;
+  top: 30px;
+  left: 10px;
+  z-index: 9;
+  background: #fff;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding: 3px;
+  opacity: 0.7;
+  display: none;//use block toolbar to show ( else two times clicks )
+}
+
+.button.cutemi-preview-edit-link:hover,
+.button.cutemi-preview-edit-link:focus {
+  opacity: 1;
 }
